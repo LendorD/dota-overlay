@@ -1,14 +1,17 @@
 package main
 
 import (
+	"bytes"
 	"context"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
 	"overlay/internal/app"
+	"overlay/internal/gsi"
 	"overlay/internal/opendota"
 	"overlay/internal/parser"
 	"overlay/internal/paths"
@@ -121,6 +124,35 @@ func main() {
 			st.SetBestCounters(best)
 		}()
 	}
+
+	go func() {
+		err := gsi.ListenAndServe("127.0.0.1:3001", func(heroID int) {
+			if added := st.AddEnemyHeroByID(heroID); added {
+				onNewHero(heroID)
+			}
+		}, func() {
+			st.SetGSISeen(time.Now())
+		}, st)
+		if err != nil {
+			st.SetStatus("GSI error: " + err.Error())
+		}
+	}()
+
+	go func() {
+		st.SetGSIStatus("GSI self-test...")
+		client := &http.Client{Timeout: 2 * time.Second}
+		body := []byte(`{"player":{"team_name":"spectator"},"draft":{"picks_bans":[]}}`)
+		for i := 0; i < 5; i++ {
+			resp, err := client.Post("http://127.0.0.1:3001/", "application/json", bytes.NewReader(body))
+			if err == nil {
+				resp.Body.Close()
+				st.SetGSIStatus("GSI self-test OK")
+				return
+			}
+			time.Sleep(500 * time.Millisecond)
+		}
+		st.SetGSIStatus("GSI self-test failed")
+	}()
 
 	go parser.Start(st, logPath, onNewHero)
 

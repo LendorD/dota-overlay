@@ -3,6 +3,7 @@ package app
 import (
 	"fmt"
 	"image/color"
+	"time"
 
 	"overlay/internal/state"
 
@@ -108,11 +109,12 @@ func (a *App) Draw(screen *ebiten.Image) {
 
 	snap := a.state.Snapshot(maxOverlayLogs)
 
-	statusMsg := fmt.Sprintf("Status: %s | F12: Lock | +/- Scale (%.1fx)\n\nENEMIES:", snap.Status, a.scale)
+	statusMsg := fmt.Sprintf("Status: %s | F12: Lock | +/- Scale (%.1fx)\n%s\n\nENEMIES:", snap.Status, a.scale, gsiLine(snap))
 	for _, id := range snap.EnemyHeroesIDs {
 		statusMsg += fmt.Sprintf(" [%s]", snap.HeroIDToName[id])
 	}
 
+	statusMsg += "\n\n" + buildGSIPanel(snap)
 	statusMsg += "\n\n" + buildCounterTable(snap, a.selectedHeroID(snap))
 	statusMsg += "\n\n" + buildBestPicksTable(snap)
 
@@ -200,6 +202,55 @@ func formatTable(title string, rows []string) string {
 		out += r + "\n"
 	}
 	return out[:len(out)-1]
+}
+
+func gsiLine(snap state.Snapshot) string {
+	status := snap.GSIStatus
+	if status == "" {
+		status = "No data"
+	}
+	if snap.GSILastAt.IsZero() {
+		return "GSI: " + status
+	}
+	age := time.Since(snap.GSILastAt).Round(time.Second)
+	return fmt.Sprintf("GSI: %s (last %s ago)", status, age)
+}
+
+func buildGSIPanel(snap state.Snapshot) string {
+	if snap.GSIHeroID == 0 || snap.GSIMapPhase == "picks" {
+		name := snap.GSIHeroName
+		if name == "" {
+			name = "Not picked"
+		}
+		return fmt.Sprintf("PICK STAGE\nHero: %s\nMatch: %s", name, fallback(snap.GSIMatchID, "-"))
+	}
+
+	return fmt.Sprintf(
+		"IN-GAME\nHero: %s (Lv %d)\nK/D/A: %d/%d/%d  LH/D: %d/%d\nGPM/XPM: %d/%d  Gold: %d (%d+%d)\nHP/MP: %d/%d  %d/%d",
+		fallback(snap.GSIHeroName, "Unknown"),
+		snap.GSIHeroLevel,
+		snap.GSIKills,
+		snap.GSIDeaths,
+		snap.GSIAssists,
+		snap.GSILastHits,
+		snap.GSIDenies,
+		snap.GSIGPM,
+		snap.GSIXPM,
+		snap.GSIGold,
+		snap.GSIGoldR,
+		snap.GSIGoldU,
+		snap.GSIHeroHP,
+		snap.GSIHeroHPMax,
+		snap.GSIHeroMP,
+		snap.GSIHeroMPMax,
+	)
+}
+
+func fallback(val, def string) string {
+	if val == "" {
+		return def
+	}
+	return val
 }
 
 func abs(v int) int {

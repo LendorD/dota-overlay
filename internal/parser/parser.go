@@ -18,8 +18,10 @@ var overlayPatterns = []*regexp.Regexp{
 }
 
 func Start(s *state.GameState, path string, onNewHero func(heroID int)) {
-	debugFile, _ := os.Create("debug_capture.txt")
-	defer debugFile.Close()
+	logFile, _ := os.OpenFile("log_dota.txt", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	if logFile != nil {
+		defer logFile.Close()
+	}
 
 	for {
 		file, err := os.Open(path)
@@ -49,8 +51,9 @@ func Start(s *state.GameState, path string, onNewHero func(heroID int)) {
 				continue
 			}
 
-			fmt.Println("LOG:", cleanLine)
-			debugFile.WriteString(cleanLine + "\n")
+			if logFile != nil {
+				logFile.WriteString(cleanLine + "\n")
+			}
 
 			matched := false
 			var heroInternal string

@@ -1,6 +1,9 @@
 package state
 
-import "sync"
+import (
+	"sync"
+	"time"
+)
 
 type Snapshot struct {
 	EnemyHeroesIDs  []int
@@ -13,6 +16,30 @@ type Snapshot struct {
 	CounterPicksBy  map[int][]CounterPick
 	BestCounters    []ScoredHero
 	IsLoading       bool
+	GSILastAt       time.Time
+	GSIStatus       string
+	GSIMapPhase     string
+	GSIMatchID      string
+	GSIMapName      string
+	GSIGameTime     int
+	GSIClockTime    int
+	GSIHeroID       int
+	GSIHeroName     string
+	GSIHeroLevel    int
+	GSIHeroHP       int
+	GSIHeroHPMax    int
+	GSIHeroMP       int
+	GSIHeroMPMax    int
+	GSIKills        int
+	GSIDeaths       int
+	GSIAssists      int
+	GSILastHits     int
+	GSIDenies       int
+	GSIGold         int
+	GSIGoldR        int
+	GSIGoldU        int
+	GSIGPM          int
+	GSIXPM          int
 }
 
 type CounterPick struct {
@@ -38,6 +65,30 @@ type GameState struct {
 	counterPicksBy  map[int][]CounterPick
 	bestCounters    []ScoredHero
 	isLoading       bool
+	gsiLastAt       time.Time
+	gsiStatus       string
+	gsiMapPhase     string
+	gsiMatchID      string
+	gsiMapName      string
+	gsiGameTime     int
+	gsiClockTime    int
+	gsiHeroID       int
+	gsiHeroName     string
+	gsiHeroLevel    int
+	gsiHeroHP       int
+	gsiHeroHPMax    int
+	gsiHeroMP       int
+	gsiHeroMPMax    int
+	gsiKills        int
+	gsiDeaths       int
+	gsiAssists      int
+	gsiLastHits     int
+	gsiDenies       int
+	gsiGold         int
+	gsiGoldR        int
+	gsiGoldU        int
+	gsiGPM          int
+	gsiXPM          int
 }
 
 func NewGameState(internalToID map[string]int, heroIDToName map[int]string) *GameState {
@@ -107,6 +158,23 @@ func (s *GameState) AddEnemyHeroByInternalName(internal string) (bool, int) {
 	return true, id
 }
 
+func (s *GameState) AddEnemyHeroByID(id int) bool {
+	if id == 0 {
+		return false
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	for _, existing := range s.enemyHeroesIDs {
+		if existing == id {
+			return false
+		}
+	}
+
+	s.enemyHeroesIDs = append(s.enemyHeroesIDs, id)
+	return true
+}
+
 func (s *GameState) EnemyHeroes() []int {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
@@ -138,6 +206,69 @@ func (s *GameState) SetBestCounters(counters []ScoredHero) {
 	s.mu.Unlock()
 }
 
+func (s *GameState) SetGSISeen(at time.Time) {
+	s.mu.Lock()
+	s.gsiLastAt = at
+	s.gsiStatus = "OK"
+	s.mu.Unlock()
+}
+
+func (s *GameState) SetGSIStatus(status string) {
+	s.mu.Lock()
+	s.gsiStatus = status
+	s.mu.Unlock()
+}
+
+func (s *GameState) SetGSISnapshot(
+	mapPhase string,
+	matchID string,
+	mapName string,
+	gameTime int,
+	clockTime int,
+	heroID int,
+	heroName string,
+	heroLevel int,
+	hp int,
+	hpMax int,
+	mp int,
+	mpMax int,
+	kills int,
+	deaths int,
+	assists int,
+	lastHits int,
+	denies int,
+	gold int,
+	goldR int,
+	goldU int,
+	gpm int,
+	xpm int,
+) {
+	s.mu.Lock()
+	s.gsiMapPhase = mapPhase
+	s.gsiMatchID = matchID
+	s.gsiMapName = mapName
+	s.gsiGameTime = gameTime
+	s.gsiClockTime = clockTime
+	s.gsiHeroID = heroID
+	s.gsiHeroName = heroName
+	s.gsiHeroLevel = heroLevel
+	s.gsiHeroHP = hp
+	s.gsiHeroHPMax = hpMax
+	s.gsiHeroMP = mp
+	s.gsiHeroMPMax = mpMax
+	s.gsiKills = kills
+	s.gsiDeaths = deaths
+	s.gsiAssists = assists
+	s.gsiLastHits = lastHits
+	s.gsiDenies = denies
+	s.gsiGold = gold
+	s.gsiGoldR = goldR
+	s.gsiGoldU = goldU
+	s.gsiGPM = gpm
+	s.gsiXPM = xpm
+	s.mu.Unlock()
+}
+
 func (s *GameState) Snapshot(maxLogs int) Snapshot {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
@@ -153,6 +284,30 @@ func (s *GameState) Snapshot(maxLogs int) Snapshot {
 		CounterPicksBy:  cloneCountersMap(s.counterPicksBy),
 		BestCounters:    append([]ScoredHero(nil), s.bestCounters...),
 		IsLoading:       s.isLoading,
+		GSILastAt:       s.gsiLastAt,
+		GSIStatus:       s.gsiStatus,
+		GSIMapPhase:     s.gsiMapPhase,
+		GSIMatchID:      s.gsiMatchID,
+		GSIMapName:      s.gsiMapName,
+		GSIGameTime:     s.gsiGameTime,
+		GSIClockTime:    s.gsiClockTime,
+		GSIHeroID:       s.gsiHeroID,
+		GSIHeroName:     s.gsiHeroName,
+		GSIHeroLevel:    s.gsiHeroLevel,
+		GSIHeroHP:       s.gsiHeroHP,
+		GSIHeroHPMax:    s.gsiHeroHPMax,
+		GSIHeroMP:       s.gsiHeroMP,
+		GSIHeroMPMax:    s.gsiHeroMPMax,
+		GSIKills:        s.gsiKills,
+		GSIDeaths:       s.gsiDeaths,
+		GSIAssists:      s.gsiAssists,
+		GSILastHits:     s.gsiLastHits,
+		GSIDenies:       s.gsiDenies,
+		GSIGold:         s.gsiGold,
+		GSIGoldR:        s.gsiGoldR,
+		GSIGoldU:        s.gsiGoldU,
+		GSIGPM:          s.gsiGPM,
+		GSIXPM:          s.gsiXPM,
 	}
 
 	if maxLogs > 0 && len(snap.OverlayLogs) > maxLogs {

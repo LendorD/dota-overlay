@@ -1,0 +1,1946 @@
+02/06 23:14:16 ReadSteamRemoteStorageFile( bufOut, "cfg/hero_facet_config.cfg" ) -> 0.001237 seconds
+02/06 23:14:16 [GCClient] Send msg 8082 (k_EMsgGCGetHeroStatsHistory), 10 bytes
+02/06 23:14:16 **** Panel  has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:16 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:16 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:16 **** Panel BackgroundSlice0 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice1 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice2 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice3 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice4 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice5 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice6 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice7 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice8 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice9 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice10 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice11 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice12 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice13 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice14 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice15 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice16 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice17 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice18 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel BackgroundSlice19 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/06 23:14:16 **** Panel GuideBrowser has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:16 [GCClient] Send msg 8274 (k_EMsgHeroGlobalDataRequest), 19 bytes
+02/06 23:14:16 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:16 [GCClient] Recv msg 8083 (k_EMsgGCGetHeroStatsHistoryResponse), 652 bytes
+02/06 23:14:16 WriteSteamRemoteStorageFileAsync( "cfg/stats.dat" ) -> at 60.790
+02/06 23:14:16 CAsyncWriteInProgress::OnComplete( "cfg/stats.dat" ) -> Success at 60.802
+02/06 23:14:16 [GCClient] Recv msg 8275 (k_EMsgHeroGlobalDataResponse), 1454 bytes
+02/06 23:14:17 [Entity System] Entity hero_camera [point_camera]: unrecognized parent "loadout_camera_model"
+02/06 23:14:18 [HostStateManager] CHostStateMgr::QueueNewRequest( Loading (hero_demo_main), 2 )
+02/06 23:14:18 [HostStateManager] HostStateRequest::Start(HSR_GAME):  loop(levelload) id(2) addons(hero_demo) desc(Loading (hero_demo_main))
+02/06 23:14:18 [EngineServiceManager] SwitchToLoop levelload requested:  id [2] addons [hero_demo]
+02/06 23:14:18 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/06 23:14:18 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 62.356
+02/06 23:14:18 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 62.356
+02/06 23:14:18 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/06 23:14:18 [Client] Disconnecting from server: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/06 23:14:18 [NetSteamConn] Closing Steam Net Connection on socket 'client' to loopback:1, handle #2001658537 (2055 NETWORK_DISCONNECT_LOOPDEACTIVATE)
+02/06 23:14:18 [NetSteamConn] CloseSteamNetConnection handle #2001658537 (userdata 1)
+02/06 23:14:18 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #2001658537 (userdata 1)
+02/06 23:14:18 [SteamNetSockets] [#2001658537 pipe 'server'] closed by app, linger requested but not needed (2055) NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/06 23:14:18 [SteamNetSockets] [#188484849 pipe '󠁳'] closed by peer (2055): NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/06 23:14:18 [NetSteamConn] Removing Steam Net Connection for loopback:1, handle #2001658537
+02/06 23:14:18 [Networking] Closing 'client' poll group
+02/06 23:14:18 [Server] SV:  IGameSystem::LoopDeactivateAllSystems {
+02/06 23:14:18 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/06 23:14:18 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/06 23:14:18 [Server] SV:  } IGameSystem::LoopDeactivateAllSystems done
+02/06 23:14:18 [Server] SV:  Server shutting down: NETWORK_DISCONNECT_LOOPDEACTIVATE (55)
+02/06 23:14:18 [Server] CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+02/06 23:14:18 [Server] Disconnect client '󠁳' from server: NETWORK_DISCONNECT_SHUTDOWN (Server shutdown)
+02/06 23:14:18 [SignonState] Client 0 '󠁳' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+02/06 23:14:18 [NetSteamConn] Closing Steam Net Connection on socket 'server' to loopback:0, handle #188484849 (1001 NETWORK_DISCONNECT_SHUTDOWN)
+02/06 23:14:18 [NetSteamConn] CloseSteamNetConnection handle #188484849 (userdata 0)
+02/06 23:14:18 [NetSteamConn] Disassociating NetChan 󠁳 @  (unknown) from Steam Net Connection handle #188484849 (userdata 0)
+02/06 23:14:18 [NetSteamConn] Removing Steam Net Connection for loopback:0, handle #188484849
+02/06 23:14:18 CPlayerVoiceListener::PostSpawnGroupUnload()
+02/06 23:14:18 [Networking] Closing 'server' poll group
+02/06 23:14:18 [stringtables] SV: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/06 23:14:18 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/06 23:14:18 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 62.466
+02/06 23:14:18 CPlayerVoiceListener::GameShutdown()
+02/06 23:14:18 ResetBreakpadAppId: Universe is 1 (k_EUniversePublic)
+02/06 23:14:18 ResetBreakpadAppId: Setting non standard break pad app id: 373300
+02/06 23:14:18 [EngineServiceManager] Mounting addon 'hero_demo'
+02/06 23:14:18 ILocalize::AddFile() failed to load file "panorama/localization/addon_english.txt".
+02/06 23:14:18 ILocalize::AddFile() failed to load file "panorama/localization/addon_russian.txt".
+02/06 23:14:18 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/06 23:14:18 [Client] LoadingDisplay changed from NONE to LOADING (map="")
+02/06 23:14:18 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 62.951
+02/06 23:14:18 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 62.951
+02/06 23:14:18 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 62.951
+02/06 23:14:18 [NetSteamConn] Steam Net connection #188484849 pipe '󠁳' closed by peer, reason 2055: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/06 23:14:18 [NetSteamConn] CloseSteamNetConnection handle #188484849 (userdata -1)
+02/06 23:14:18 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons (hero_demo)
+02/06 23:14:18 [EngineServiceManager] SwitchToLoop game requested:  id [2] addons [hero_demo]
+02/06 23:14:19 Cannot open C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\dota_addons\hero_demo to calculate addon CRC!
+02/06 23:14:19 [Server] SteamGameServer_Init()
+02/06 23:14:19 ResetBreakpadAppId: Universe is 1 (k_EUniversePublic)
+02/06 23:14:19 ResetBreakpadAppId: Setting non standard break pad app id: 373300
+02/06 23:14:19 [Server] SteamGameServer_Init() OK, logging on to Steam
+02/06 23:14:19 [Networking] CNetworkSystem::InitGameServer: SteamGameServerNetworking() OK
+02/06 23:14:19 [SteamNetSockets] src\steamnetworkingsockets\clientlib\steam\csteamnetworkingsockets_steam.cpp(344): Assertion Failed: m_hSteamPipe == 0
+02/06 23:14:19 [Server] CNetworkGameServerBase::SetServerState (ss_dead -> ss_waitingforgamesessionmanifest)
+02/06 23:14:19 [Server] SV:  maxplayers set to 64
+02/06 23:14:19 [Networking] Created poll group for socket 'server'
+02/06 23:14:19 [SteamNetSockets] AuthStatus (invalid):  Waiting  (Waiting for Steam login)
+02/06 23:14:19 [Networking] Network socket 'server' opened on port 27015
+02/06 23:14:19 Failed to load. pName='DOTANeutralItems', bIncrementVersion=true, list:
+scripts/npc/npc_neutral_items_custom.txt
+02/06 23:14:19 Found
+02/06 23:14:19 Initializing script VM...
+02/06 23:14:19 ...done
+02/06 23:14:19 [Server] SV:  Executing server defaults
+02/06 23:14:19 [Server] SV:  Executing listen server config file
+02/06 23:14:19 Failed to load. pName='DOTANeutralItems', bIncrementVersion=true, list:
+scripts/npc/npc_neutral_items_custom.txt
+02/06 23:14:20 Found
+02/06 23:14:20 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_INIT'
+02/06 23:14:20 [Server] SV:  CGameRulesGameSystem::GameInit installed game rules
+02/06 23:14:20 CPlayerVoiceListener::GameInit()
+02/06 23:14:24 WriteSteamRemoteStorageFileAsync( "cfg/fantasy_crafting.lst" ) -> at 68.247
+02/06 23:14:24 CAsyncWriteInProgress::OnComplete( "cfg/fantasy_crafting.lst" ) -> Success at 68.273
+02/06 23:14:24 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:26 [ResourceSystem] Failed loading resource "materials/particle/particle_ring_blurry_generic_projected.vmat_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:26 [VScript] Hero Demo game mode loaded.
+02/06 23:14:26 [VScript] sHeroSelection: npc_dota_hero_pudge
+02/06 23:14:26 [RESPONSE_RULES] CResponseSystem:  failed to load scripts/talker/response_rules_custom.txt
+02/06 23:14:26 [ResourceSystem] Failed loading resource "particles/status_fx/status_effect_chen_handofgod_buff.vpcf_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:28 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:14:29 [AnimResource]  models/particle/explosion/fx_explosion_capped_sphere.vmdl : Animations loaded but no animation data found
+02/06 23:14:29 [AnimResource]  models/props_structures/xp_shrine/xp_shrine_stones.vmdl : Animations loaded but no animation data found
+02/06 23:14:30 [Server] SV:  Spawn Server: hero_demo_main
+02/06 23:14:30 [Server] CNetworkGameServerBase::SetServerState (ss_waitingforgamesessionmanifest -> ss_loading)
+02/06 23:14:30 [Server] CNetworkGameServerBase::SetServerState (ss_loading -> ss_active)
+02/06 23:14:30 [Client] CL:  CWaitForGameServerStartupPrerequisite done waiting for server
+02/06 23:14:30 [Client] CL:  CCreateGameClientJob creating client connection to 'loopback'
+02/06 23:14:30 [SteamNetSockets] [#1244566860 pipe] connected
+02/06 23:14:30 [SteamNetSockets] [#1596210941 pipe] connected
+02/06 23:14:30 [Networking] Created poll group for socket 'client'
+02/06 23:14:30 [Networking] Connected loopback client=4a2e954c@loopback:1 <-> server=5f243efd@loopback:0
+02/06 23:14:30 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/06 23:14:30 [NetSteamConn] Associating NetChan 󠁳 @ loopback:0 (loopback:0) with Steam Net Connection handle #1596210941 (userdata 0)
+02/06 23:14:30 [NetSteamConn] Associating NetChan server @ loopback:1 (loopback:1) with Steam Net Connection handle #1244566860 (userdata 1)
+02/06 23:14:30 [Client] CL:  Connected to 'loopback:1'
+02/06 23:14:30 ClientPutInServer create new player controller [󠁳]
+02/06 23:14:30 [Server] Client 0 '󠁳' setting rate to 80000
+02/06 23:14:30 [Client] Game: "Dota 2"
+02/06 23:14:30 [Client] Map: "hero_demo_main"
+02/06 23:14:30 [Client] Players: 1 (0 bots) / 64 humans
+02/06 23:14:30 [Client] Build: 10644 (revision 10430278)
+02/06 23:14:30 [Client] Server Number: 2
+02/06 23:14:30 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/06 23:14:30 Failed to load. pName='DOTANeutralItems', bIncrementVersion=true, list:
+scripts/npc/npc_neutral_items_custom.txt
+02/06 23:14:30 Found
+02/06 23:14:31 Initializing script VM...
+02/06 23:14:31 ...done
+02/06 23:14:31 Failed to load. pName='DOTANeutralItems', bIncrementVersion=true, list:
+scripts/npc/npc_neutral_items_custom.txt
+02/06 23:14:31 Found
+02/06 23:14:31 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_INIT'
+02/06 23:14:31 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_INIT
+02/06 23:14:31 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/06 23:14:31 [Client] CL:  CGameRulesGameSystem::GameInit installed game rules
+02/06 23:14:31 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:31 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000589 seconds
+02/06 23:14:31 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/06 23:14:31 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/06 23:14:32 [Client] Client missing networkable entity class CPhysMagnet
+02/06 23:14:32 [Client] Client missing networkable entity class CSpotlightEnd
+02/06 23:14:32 [Client] CNetworkGameClientBase::LinkClasses took 105.450 msec
+02/06 23:14:32 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_killing_spree_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:32 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/06 23:14:33 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/06 23:14:33 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_DOTA_INGAME
+02/06 23:14:33 [Server] SV:  IGameSystem::LoopActivateAllSystems {
+02/06 23:14:33 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/06 23:14:33 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 [Server] SV:  } IGameSystem::LoopActivateAllSystems done
+02/06 23:14:33 [Server] Created physics for hero_demo_main
+02/06 23:14:33 [VScript] Initializing Hero Demo mode
+02/06 23:14:33 [Server] CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered RequestInitialSpawnHeroID
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered PlayerConnected
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ToggleDayNight
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered WelcomePanelDismissed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered RefreshSpellsButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered RefreshHealthButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered LevelUpButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered UltraMaxLevelButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered FreeSpellsButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered AllVisionButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered EnableXPButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered EnableRegenButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered CombatLogButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SelectMainHeroButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SelectSpawnHeroButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnEnemyButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnAllyButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ChangeTeamButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered RemoveHeroButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered LevelUpHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered MaxLevelUpHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ScepterHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ShardHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ResetHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ToggleInvulnerabilityHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered InvulnOnHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered InvulnOffHero
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ClearGameState
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SaveState
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered RestoreState
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered DummyTargetButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ChangeHeroButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ChangeCosmeticsButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnCreepsButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnSingleCreepWaveButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered TowersEnabledButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered PauseButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered LeaveButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneDoubleDamagePressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneHastePressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneIllusionPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneInvisibilityPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneRegenerationPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneArcanePressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnRuneShieldPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered SpawnUnitButtonPressed
+02/06 23:14:33 CCustomGameEventManager::Script_RegisterListener - Registered ChangeSpeedStep
+02/06 23:14:33 [Server] SV:  64 player server started
+02/06 23:14:33 [Server] SV:  addon='hero_demo'
+02/06 23:14:33 [Server] CSource2Server::GameServerSteamAPIActivated()
+02/06 23:14:33 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/06 23:14:33 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000660 seconds
+02/06 23:14:33 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000298 seconds
+02/06 23:14:33 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/06 23:14:33 CDOTAGameRules::OnDemoHero - Client
+02/06 23:14:33 [HostStateManager] Host activate: Loading (hero_demo_main)
+02/06 23:14:33 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/06 23:14:33 CDOTAGameRules::OnDemoHero - Server
+02/06 23:14:33 [Server] SV:  Sending full update to client 󠁳 (reason:  initial update)
+02/06 23:14:33 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/06 23:14:33 [Prediction] Resetting prediction state because we received a full update
+02/06 23:14:33 [Client] Receiving 0.9K non-incremental update from server
+02/06 23:14:33 [Client] Created physics for hero_demo_main
+02/06 23:14:33 DOTABaseGameMode::Spawn()
+02/06 23:14:33 Failed to load. pName='DOTANeutralItems', bIncrementVersion=true, list:
+scripts/npc/npc_neutral_items_custom.txt
+02/06 23:14:33 Found
+02/06 23:14:34 [Networking] server @ loopback:1:  NetChan Setting Timeout to 30.00 seconds
+02/06 23:14:34 [Client] CL:  Signon traffic "server":  incoming 119.429 KB [42 netframes], outgoing 2.071 KB [41 netframes]
+02/06 23:14:34 [Prediction] Added prediction for player slot 0 ()
+02/06 23:14:34 [Networking] 󠁳 @ loopback:0:  NetChan Setting Timeout to 20.00 seconds
+02/06 23:14:34 [Server] CDOTA_PlayerResource: Adding player SteamID 76561198329368033 to PlayerID 0 FakeClient=0, preferred PlayerID = -1
+02/06 23:14:34 [Server] CDOTA_PlayerResource::ApplyDelayedCustomTeamAssignment - Delayed ChangeTeam of id 0 to: 2 (was 0)
+02/06 23:14:34 [Server] PR:OnFullyJoinedServer 0:[U:1:369102305]
+02/06 23:14:34 [Server] PR:SetLeaverStatus 0:[U:1:369102305] DOTA_LEAVER_NONE
+02/06 23:14:34 [Server] PR:SetConnectionState 0:[U:1:369102305] DOTA_CONNECTION_STATE_CONNECTED NETWORK_DISCONNECT_INVALID
+02/06 23:14:34 [Server] PR:OnFullyJoinedServer 0:[U:1:369102305]
+02/06 23:14:34 [Server] PR:SetConnectionState 0:[U:1:369102305] DOTA_CONNECTION_STATE_CONNECTED NETWORK_DISCONNECT_INVALID
+02/06 23:14:34 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_CUSTOM_GAME_SETUP'
+02/06 23:14:34 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_HERO_SELECTION'
+02/06 23:14:34 Muted Players: Trying to send message type 8870 (Unknown MsgType - Not Found) before GC connection established.  This is guaranteed to fail.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [Server] PR:SetEventInfo for event 19: 0:[U:1:369102305] Level:116 Points:116260, PremiumPoints:0
+02/06 23:14:34 [Server] PR:SetEventInfo for event 26: 0:[U:1:369102305] Level:0 Points:0, PremiumPoints:0
+02/06 23:14:34 [Server] PR:SetEventInfo for event 39: 0:[U:1:369102305] Level:0 Points:0, PremiumPoints:0
+02/06 23:14:34 [Server] PR:SetEventInfo for event 51: 0:[U:1:369102305] Level:179 Points:179500, PremiumPoints:0
+02/06 23:14:34 [Server] PR:SetEventInfo for event 55: 0:[U:1:369102305] Level:96 Points:96850, PremiumPoints:0
+02/06 23:14:34 [Server] PR:SetPlusSubscriptionStatus 0:[U:1:369102305] IsPlusSubscriber:Yes
+02/06 23:14:34 [Server] PR:SetWasMVPLastGame 0:[U:1:369102305] WasMVPLastGame:No
+02/06 23:14:34 [Server] PR:SetFavoriteTeamPacked 0:[U:1:369102305] unFavTeamPacked:0
+02/06 23:14:34 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_HERO_SELECTION'
+02/06 23:14:34 [Client] LoadingDisplay changed from LOADING to NONE (map="hero_demo_main")
+02/06 23:14:34 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_HERO_SELECTION
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [Server] SV:  Connection to Steam servers successful.
+02/06 23:14:34 [Server] SV:  ServerSteamID=[A:1:3766718473:48690] (90281118271770633).
+02/06 23:14:34 [STARTUP] {78.381} logged on to Steam
+02/06 23:14:34 [GCClient] Logged on to Steam, set GC connection state to NO_SESSION
+02/06 23:14:34 [GCClient] Send msg 4007 (k_EMsgGCServerHello), 22 bytes
+02/06 23:14:34 [SteamNetSockets] Gameserver logged on to Steam, assigned identity steamid:90281118271770633
+02/06 23:14:34 [SteamNetSockets] AuthStatus (steamid:90281118271770633):  Attempting  (Requesting cert)
+02/06 23:14:34 [GCClient] OnSteamServersConnected()
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 49.716811ms
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [Server] SV:  VAC secure mode disabled.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [SteamNetSockets] AuthStatus (steamid:90281118271770633):  OK  (OK)
+02/06 23:14:34 [SteamNetSockets] Certificate expires in 48h00m at 1770581676 (current time 1770408874), will renew in 46h00m
+02/06 23:14:34 [GCClient] Recv msg 4005 (k_EMsgGCServerWelcome), 26 bytes
+02/06 23:14:34 [GCClient] Received server welcome from GC.
+02/06 23:14:34 [SOCache] CMsgClientWelcome subscribed: 0 up-to-date, 0 out-of-date
+02/06 23:14:34 GC Connection established for server version 6699
+02/06 23:14:34 --- Sent CMsgGameServerInfo to GC
+02/06 23:14:34 server_public_ip_addr: 1052809654
+server_private_ip_addr: 3232249857
+server_port: 27015
+server_tv_port: 0
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.326093078
+server_tv_broadcast_time: -120
+server_game_time: -59.6333313
+relay_slots_max: 0
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 3139413683442631993
+server_version: 6699
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 6699
+02/06 23:14:34 ---
+02/06 23:14:34 [GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 82 bytes
+02/06 23:14:34 Server:  Running [192.168.56.1:27015]
+02/06 23:14:34 Client:  Connected [loopback:1] [last packet 0.154 sec ago]
+02/06 23:14:34 [EngineServiceManager] ----- Status -----
+02/06 23:14:34 [EngineServiceManager] @ Current  :  game
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 [Client] source   : slot 0
+02/06 23:14:34 [Client] version  : 48/48 10644 insecure  public
+02/06 23:14:34 [Client] steamid  : [A:1:3766718473:48690] (90281118271770633)
+02/06 23:14:34 [Client] players  : 1 humans, 0 bots (0 max) (not hibernating) (unreserved)
+02/06 23:14:34 [Client] ---------spawngroups----
+02/06 23:14:34 [Client] loaded spawngroup(  1)  : SV:  [1: hero_demo_main | main lump | mapload]
+02/06 23:14:34 [Client] ---------players--------
+02/06 23:14:34 [Client]   id     time ping loss      state   rate name
+02/06 23:14:34 [Client]    0    00:03    0    0     active  80000 '󠁳'
+02/06 23:14:34 [Client] GameState: DOTA_GAMERULES_STATE_HERO_SELECTION Times: Transition=62.57 Current=2.97
+02/06 23:14:34 [Client] #end
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:34 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:35 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:36 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:37 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 Delaying demo mode hero spawn until we receive player loadout.
+02/06 23:14:38 [Server] PR:SetSelectedHero 0:[U:1:369102305] npc_dota_hero_pudge(14)
+02/06 23:14:38 [Server] PR:SetSelectedHeroFacet 0:[U:1:369102305] (npc_dota_hero_pudge:pudge_fresh_meat)
+02/06 23:14:38 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+02/06 23:14:38 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+02/06 23:14:38 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/06 23:14:38 [GCClient] Send msg 8330 (k_EMsgServerToGCRequestPlayerRecentAccomplishments), 25 bytes
+02/06 23:14:38 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_TEAM_SHOWCASE'
+02/06 23:14:38 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_TEAM_SHOWCASE'
+02/06 23:14:38 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_TEAM_SHOWCASE
+02/06 23:14:38 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD'
+02/06 23:14:38 --- Sent CMsgGameServerInfo to GC
+02/06 23:14:38 server_public_ip_addr: 1052809654
+server_private_ip_addr: 3232249857
+server_port: 27015
+server_tv_port: 0
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.0565771498
+server_tv_broadcast_time: -120
+server_game_time: 0.0333333
+relay_slots_max: 0
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 3139413683442631993
+server_version: 6699
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 6699
+02/06 23:14:38 ---
+02/06 23:14:38 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD'
+02/06 23:14:38 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD
+02/06 23:14:38 [GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 82 bytes
+02/06 23:14:38 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+02/06 23:14:38 m_flPreGameStartTime set to 7.03
+02/06 23:14:38 m_flStateTransitionTime set to 7.03
+02/06 23:14:38 S:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+02/06 23:14:38 m_flGameStartTime set to 7.07
+02/06 23:14:38 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+02/06 23:14:38 **** Panel AllVisionButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel EnableXPButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel EnableRegenButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 [PanoramaScript] SwitchToNewHero - Hero = 14, Variant = 0
+02/06 23:14:38 [PanoramaScript] SwitchSpawnHeroFacet 14 1
+02/06 23:14:38 [PanoramaScript] HERO NAME = Pudge
+02/06 23:14:38 [PanoramaScript] SetHeroPickerVisible false
+02/06 23:14:38 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+02/06 23:14:38 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/06 23:14:38 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel FacetIcon has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel FacetIcon has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel AllVisionButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel EnableXPButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 **** Panel EnableRegenButton has fill-parent-flow for width, but isn't in a flowing right layout
+02/06 23:14:38 --- Sent CMsgGameServerInfo to GC
+02/06 23:14:38 server_public_ip_addr: 1052809654
+server_private_ip_addr: 3232249857
+server_port: 27015
+server_tv_port: 0
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.16036348
+server_tv_broadcast_time: -120
+server_game_time: 0.0999999046
+relay_slots_max: 0
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 3139413683442631993
+server_version: 6699
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 6699
+02/06 23:14:38 ---
+02/06 23:14:38 [GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 82 bytes
+02/06 23:14:39 [GCClient] Recv msg 8331 (k_EMsgServerToGCRequestPlayerRecentAccomplishmentsResponse), 131 bytes
+02/06 23:14:39 CGameParticleManager::SetParticleControlEnt: Unable to lookup attachment "attach_hitloc" on model "" for entity "npc_dota_hero_pudge"
+02/06 23:14:39 [VScript] spawnedUnit is player's hero
+02/06 23:14:39 [PanoramaScript] OnSetPlayerHeroID: {"hero_variant":1,"hero_id":14}
+02/06 23:14:39 [PanoramaScript] OnAddNewHeroEntry: {"entindex":311}
+02/06 23:14:40 CSwapChainBase::QueuePresentAndWait() looped for 21 iterations without a present event.
+02/06 23:14:40 [Server] SV:  "󠁳<0><[U:1:369102305]><>" STEAM USERID validated
+02/06 23:14:41 [GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 42 bytes
+02/06 23:14:41 [GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 57548 bytes
+02/06 23:14:51 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:14:59 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 42 bytes
+02/06 23:15:23 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 46 bytes
+02/06 23:15:24 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 46 bytes
+02/06 23:16:19 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:17:37 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:18:18 [GCClient] Recv msg 2522 (k_EMsgGCServerVersionUpdated), 11 bytes
+02/06 23:18:18 Version out of date (GC wants 6700, we are 6699)!
+02/06 23:18:36 [GCClient] Send msg 4523 (k_EMsgClientToGCAggregateMetrics), 109 bytes
+02/06 23:18:54 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:18:56 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:18:57 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:18:58 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:19:01 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:19:02 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:19:04 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:19:11 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 43 bytes
+02/06 23:19:11 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 43 bytes
+02/06 23:19:16 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:19:20 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/06 23:19:23 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:24 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:25 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:25 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:26 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:30 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:34 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:35 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:38 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:19:38 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:19:39 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:19:40 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:19:42 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:19:43 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:19:44 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/06 23:20:49 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:20:50 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:20:51 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:20:52 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:20:53 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:20:58 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 70 bytes
+02/06 23:21:21 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:21:22 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 45 bytes
+02/06 23:21:23 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:21:24 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:21:26 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/06 23:21:48 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 43 bytes
+02/06 23:21:48 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 43 bytes
+02/06 23:23:09 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:23:10 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/06 23:23:32 [SteamNetSockets] Certificate expires in 20h12m at 1770482173 (current time 1770409412), will renew in 18h12m
+02/06 23:23:43 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/06 23:23:45 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/07 00:12:20 ReadSteamRemoteStorageFile( bufOut, "cfg/hero_facet_config.cfg" ) -> 0.001278 seconds
+02/07 00:12:20 [GCClient] Send msg 8082 (k_EMsgGCGetHeroStatsHistory), 10 bytes
+02/07 00:12:21 **** Panel  has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:12:21 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:12:21 **** Panel  has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:12:21 **** Panel BackgroundSlice0 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice1 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice2 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice3 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice4 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice5 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice6 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice7 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice8 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice9 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice10 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice11 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice12 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice13 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice14 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice15 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice16 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice17 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice18 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel BackgroundSlice19 has fill-parent-flow for height, but isn't in a flowing down or up layout
+02/07 00:12:21 **** Panel GuideBrowser has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:12:21 [GCClient] Send msg 8274 (k_EMsgHeroGlobalDataRequest), 19 bytes
+02/07 00:12:21 Excessive frame time of 126.21ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 1.70s ago)
+02/07 00:12:21 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:12:21 [GCClient] Recv msg 8083 (k_EMsgGCGetHeroStatsHistoryResponse), 428 bytes
+02/07 00:12:21 WriteSteamRemoteStorageFileAsync( "cfg/stats.dat" ) -> at 97.480
+02/07 00:12:21 CAsyncWriteInProgress::OnComplete( "cfg/stats.dat" ) -> Success at 97.488
+02/07 00:12:21 [GCClient] Recv msg 8275 (k_EMsgHeroGlobalDataResponse), 1461 bytes
+02/07 00:12:21 [Entity System] Entity hero_camera [point_camera]: unrecognized parent "loadout_camera_model"
+02/07 00:13:02 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:13:02 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:03 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 320 bytes
+02/07 00:13:03 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:04 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:05 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:06 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 44 bytes
+02/07 00:13:09 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:21 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:13:22 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:14:03 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:14:03 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 320 bytes
+02/07 00:14:38 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:14:39 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/07 00:15:04 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:15:05 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 320 bytes
+02/07 00:15:26 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:15:28 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/07 00:16:04 [GCClient] Send msg 4523 (k_EMsgClientToGCAggregateMetrics), 84 bytes
+02/07 00:16:05 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:16:05 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 320 bytes
+02/07 00:16:19 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 46 bytes
+02/07 00:23:20 **** Panel BotScriptDedicatedChoices has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:23:22 [GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 173 bytes
+02/07 00:23:22 [GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 311 bytes
+02/07 00:23:22 [SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:29701377980528802>) [in cache]
+02/07 00:23:22 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:23:22 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:23:22 [GCClient] Recv msg 7055 (k_EMsgGCPracticeLobbyResponse), 19 bytes
+02/07 00:23:22 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+02/07 00:23:22 **** Panel LobbyPlayerName has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:23:22 [GCClient] Send msg 8800 (k_EMsgClientToGCGetAvailablePrivateCoachingSessionsSummary), 17 bytes
+02/07 00:23:22 [GCClient] Send msg 8673 (k_EMsgClientToGCRequestGuildData), 19 bytes
+02/07 00:23:22 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 74 bytes
+02/07 00:23:22 [GCClient] Recv msg 8801 (k_EMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse), 23 bytes
+02/07 00:23:23 [GCClient] Recv msg 8674 (k_EMsgClientToGCRequestGuildDataResponse), 19 bytes
+02/07 00:23:24 ProtoBufHelper::ParseJSON: Ignoring extra JSON key 'success', which is not found in protobuf message 'CMsgDOTAPlayerInfoList'!
+02/07 00:23:51 [GCClient] Send msg 7041 (k_EMsgGCPracticeLobbyLaunch), 11 bytes
+02/07 00:23:52 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 2995 bytes
+02/07 00:23:52 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:23:52 [GCClient] Recv msg 3001 (k_EMsgGCPingRequest), 8 bytes
+02/07 00:23:52 [GCClient] Send msg 3002 (k_EMsgGCPingResponse), 8 bytes
+02/07 00:23:52 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3011 bytes
+02/07 00:23:52 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:23:52 [GCClient] Recv msg 7581 (k_EMsgGCToClientSteamDatagramTicket), 273 bytes
+02/07 00:23:52 [SteamNetSockets] Received Steam datagram ticket for server steamid:90281118473315333 vport 0. match_id=8680544650 mm=0 flg=
+02/07 00:23:52 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3033 bytes
+02/07 00:23:52 WriteSteamRemoteStorageFileAsync( "scripts/dota_local_disk_lobby_data.txt" ) -> at 789.027
+02/07 00:23:52 Telling Steam not to update the app for the next 900 seconds
+02/07 00:23:52 LOBBY STATE RUN: lobby 29701377980528802: Player AccountID 369102305 connecting to MatchID 8680544650 at ServerID [A:1:3968263173:48690] =[A:1:3968263173:48690]
+02/07 00:23:52 [Networking] Steam datagram ticket found to connect to '=[A:1:3968263173:48690]'
+02/07 00:23:52 [HostStateManager] CHostStateMgr::QueueNewRequest( Remote Connect (=[A:1:3968263173:48690]), 2 )
+02/07 00:23:52 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:23:52 [HostStateManager] HostStateRequest::Start(HSR_GAME):  loop(remoteconnect) id(2) addons() desc(Remote Connect (=[A:1:3968263173:48690]))
+02/07 00:23:52 [EngineServiceManager] SwitchToLoop remoteconnect requested:  id [2] addons []
+02/07 00:23:52 CAsyncWriteInProgress::OnComplete( "scripts/dota_local_disk_lobby_data.txt" ) -> Success at 789.042
+02/07 00:23:52 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:23:52 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 789.092
+02/07 00:23:52 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 789.093
+02/07 00:23:52 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:23:52 [Client] Disconnecting from server: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:23:52 [NetSteamConn] Closing Steam Net Connection on socket 'client' to loopback:1, handle #4025943009 (2055 NETWORK_DISCONNECT_LOOPDEACTIVATE)
+02/07 00:23:52 [NetSteamConn] CloseSteamNetConnection handle #4025943009 (userdata 1)
+02/07 00:23:52 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #4025943009 (userdata 1)
+02/07 00:23:52 [SteamNetSockets] [#4025943009 pipe 'server'] closed by app, linger requested but not needed (2055) NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:23:52 [SteamNetSockets] [#3882422538 pipe '󠁳'] closed by peer (2055): NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:23:52 [NetSteamConn] Removing Steam Net Connection for loopback:1, handle #4025943009
+02/07 00:23:52 [Networking] Closing 'client' poll group
+02/07 00:23:53 [Server] SV:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:23:53 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:23:53 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:23:53 [Server] SV:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:23:53 [Server] SV:  Server shutting down: NETWORK_DISCONNECT_LOOPDEACTIVATE (55)
+02/07 00:23:53 [Server] CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+02/07 00:23:53 [Server] Disconnect client '󠁳' from server: NETWORK_DISCONNECT_SHUTDOWN (Server shutdown)
+02/07 00:23:53 [SignonState] Client 0 '󠁳' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+02/07 00:23:53 [NetSteamConn] Closing Steam Net Connection on socket 'server' to loopback:0, handle #3882422538 (1001 NETWORK_DISCONNECT_SHUTDOWN)
+02/07 00:23:53 [NetSteamConn] CloseSteamNetConnection handle #3882422538 (userdata 0)
+02/07 00:23:53 [NetSteamConn] Disassociating NetChan 󠁳 @  (unknown) from Steam Net Connection handle #3882422538 (userdata 0)
+02/07 00:23:53 [NetSteamConn] Removing Steam Net Connection for loopback:0, handle #3882422538
+02/07 00:23:53 CPlayerVoiceListener::PostSpawnGroupUnload()
+02/07 00:23:53 [Networking] Closing 'server' poll group
+02/07 00:23:53 [stringtables] SV: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:23:53 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:23:53 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 789.454
+02/07 00:23:53 CPlayerVoiceListener::GameShutdown()
+02/07 00:23:53 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( remoteconnect : success )
+02/07 00:23:53 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/07 00:23:53 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 789.523
+02/07 00:23:53 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 789.523
+02/07 00:23:53 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 789.523
+02/07 00:23:53 [NetSteamConn] Steam Net connection #3882422538 pipe '󠁳' closed by peer, reason 2055: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:23:53 [NetSteamConn] CloseSteamNetConnection handle #3882422538 (userdata -1)
+02/07 00:23:53 [NetSteamConn] Opened Steam Net Connection on socket 'client' to =[A:1:3968263173:48690], connection #757514085 SDR server steamid:90281118473315333 vport 0
+02/07 00:23:53 [Networking] Created poll group for socket 'client'
+02/07 00:23:53 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0] Requesting session from ams#171 (155.133.248.41:27047).  Ping = 178 = 42+136 (front+back).  Rank=1 Score=210
+02/07 00:23:53 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0] Selecting ams#171 (155.133.248.41:27047) as primary.  (Ping = 178 = 42+136+0 (front+interior+remote).  Rank=1 Score=182)
+02/07 00:23:53 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0] Requesting session from fra#466 (162.254.197.42:27020).  Ping = 186 = 39+147 (front+back).  Rank=2 Score=217
+02/07 00:23:53 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0] Selecting fra#466 (162.254.197.42:27020) as backup #1 (Ping = 186 = 39+147+0 (front+interior+remote).  Rank=2 Score=189)
+02/07 00:23:54 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0] connected
+02/07 00:23:54 [SteamNetSockets] DualWifi not detected.  We won't try again.  WlanOpenHandle failed 0x426.
+02/07 00:23:54 [SteamNetSockets] SteamNetworkingSockets lock held for 9.7ms.  (Performance warning.)  ServiceThread,RecvUDPPacket,BRecvCryptoHandshake,BFinishCryptoHandshake(x2),PostConnectionStateUpdateForDiagnosticsUI,CSteamNetworkConnectionBase::Think
+This is usually a symptom of a general performance problem such as thread starvation.
+02/07 00:23:54 [Client] Sending connect to =[A:1:3968263173:48690]
+02/07 00:23:54 [Client] Received S2C_CHALLENGE [0 auth 3] from =[A:1:3968263173:48690]
+02/07 00:23:54 [Client] Sending C2S_CONNECT [48 protocol 0 auth 3] to =[A:1:3968263173:48690]
+02/07 00:23:54 [Client] Received S2C_CONNECTION from =[A:1:3968263173:48690] [addons:'']
+02/07 00:23:54 [NetSteamConn] Associating NetChan server @ =[A:1:3968263173:48690] (=[A:1:3968263173:48690]) with Steam Net Connection handle #757514085 (userdata 0)
+02/07 00:23:54 [Client] CL:  Connected to '=[A:1:3968263173:48690]'
+02/07 00:23:54 [SignonState] CL:  Suppress INetchannel::Transmit() in loopmode( remoteconnect )
+02/07 00:23:54 [Client] CL:  CLoopModeRemoteConnect::OnClientFrameSimulate switching to "levelload" loopmode with addons:
+02/07 00:23:54 [EngineServiceManager] SwitchToLoop levelload requested:  id [2] addons []
+02/07 00:23:54 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/07 00:23:54 [Client] LoadingDisplay changed from NONE to PRE_LOADING (map="")
+02/07 00:23:54 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( levelload : success )
+02/07 00:23:54 [SignonState] CL:  Permit INetchannel::Transmit()
+02/07 00:23:54 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+02/07 00:23:54 [EngineServiceManager] SwitchToLoop game requested:  id [2] addons []
+02/07 00:23:54 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:23:54 [Client] CL:  CNetworkGameClient already exists for connection to '=[A:1:3968263173:48690]'
+02/07 00:23:54 [Client] CL:  connection to '=[A:1:3968263173:48690]' already started
+02/07 00:23:56 [Client] Game: "Dota 2"
+02/07 00:23:56 [Client] Map: "start"
+02/07 00:23:56 [Client] Players: 1 (1 bots) / 64 humans
+02/07 00:23:56 [Client] Build: 10695 (revision 10432425)
+02/07 00:23:56 [Client] Server Number: 3
+02/07 00:23:56 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/07 00:23:56 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_INIT'
+02/07 00:23:56 [Client] LoadingDisplay changed from PRE_LOADING to NONE (map="start")
+02/07 00:23:56 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_INIT
+02/07 00:23:56 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/07 00:23:56 [Client] CL:  CGameRulesGameSystem::GameInit installed game rules
+02/07 00:23:56 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000907 seconds
+02/07 00:23:56 Loading Game State Integration: gamestate_integration_overlay.cfg
+02/07 00:23:56 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_LAST
+02/07 00:23:56 [Client] PregameHud - SetPreGameVisible 1
+02/07 00:23:57 [Client] PregameHud - bIsPreloading is now 1
+02/07 00:23:57 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_INIT
+02/07 00:23:57 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/07 00:23:57 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/07 00:23:58 [Client] Client missing networkable entity class CPhysMagnet
+02/07 00:23:58 [Client] Client missing networkable entity class CSpotlightEnd
+02/07 00:23:58 [Client] CNetworkGameClientBase::LinkClasses took 240.452 msec
+02/07 00:24:00 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:02 [ResourceSystem] Failed loading resource "materials/particle/particle_ring_blurry_generic_projected.vmat_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:05 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_killing_spree_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:05 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:05 [AnimResource]  models/particle/explosion/fx_explosion_capped_sphere.vmdl : Animations loaded but no animation data found
+02/07 00:24:05 [AnimResource]  models/props_structures/xp_shrine/xp_shrine_stones.vmdl : Animations loaded but no animation data found
+02/07 00:24:07 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/07 00:24:07 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_DOTA_INGAME
+02/07 00:24:07 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/07 00:24:07 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/07 00:24:07 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:24:07 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000577 seconds
+02/07 00:24:07 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000284 seconds
+02/07 00:24:07 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:24:07 [HostStateManager] Host activate: Remote Connect (=[A:1:3968263173:48690])
+02/07 00:24:07 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 66.885ms
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 10.005ms
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 14.603ms
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 10.011ms
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 10.045ms
+02/07 00:24:07 Job EconItemSearch has spent >3.000ms without yielding: 10.004ms
+02/07 00:24:08 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/07 00:24:08 [Prediction] Resetting prediction state because we received a full update
+02/07 00:24:08 [Client] Receiving 0.9K non-incremental update from server
+02/07 00:24:08 Height map file (maps/start.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:24:08 Creating ingame event for event 0, but no event definition?
+02/07 00:24:08 [Networking] server @ =[A:1:3968263173:48690]:  NetChan Setting Timeout to 30.00 seconds
+02/07 00:24:08 [Client] CL:  Signon traffic "server":  incoming 164.207 KB [22 netframes], outgoing 5.352 KB [426 netframes]
+02/07 00:24:08 [Prediction] Added prediction for player slot 1 (󠁳)
+02/07 00:24:08 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD'
+02/07 00:24:08 C_DOTAGamerules::State_Enter_WAIT_FOR_PLAYERS_TO_LOAD: Loaded/expected players: 0/1
+02/07 00:24:08 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:24:08 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:24:08 Job EconItemSearch has spent >3.000ms without yielding: 10.005ms
+02/07 00:24:08 Job EconItemSearch has spent >3.000ms without yielding: 10.017ms
+02/07 00:24:08 Job EconItemSearch has spent >3.000ms without yielding: 10.045ms
+02/07 00:24:08 Job EconItemSearch has spent >3.000ms without yielding: 10.041ms
+02/07 00:24:08 Job EconItemSearch has spent >3.000ms without yielding: 10.002ms
+02/07 00:24:09 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 91.561302ms
+02/07 00:24:09 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 72.180948ms
+02/07 00:24:09 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_HERO_SELECTION'
+02/07 00:24:09 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:24:09 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:24:09 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 602 bytes
+02/07 00:24:09 [Client] PregameHud - bIsPreloading is now 0
+02/07 00:24:13 [SteamNetSockets] Waited 6.5ms for SteamNetworkingSockets lock
+02/07 00:24:13 [Client] Unable to load grid nav for world "prefabs/promotional_radiant_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:24:13 [Client] Unable to load grid nav for world "prefabs/promotional_dire_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:24:14 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 37.551791ms
+02/07 00:24:31 Job CDOTAGuideController::FindOrLoadGuide has spent >3.000ms without yielding: 25.921ms
+02/07 00:24:31 Excessive frame time of 115.72ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 4.16s ago)
+02/07 00:24:31 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+02/07 00:24:31 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:24:31 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:24:31 Excessive frame time of 142.20ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 4.30s ago)
+02/07 00:24:32 [GCClient] Send msg 8729 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch), 38 bytes
+02/07 00:24:32 [GCClient] Recv msg 8730 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse), 76 bytes
+02/07 00:24:32 [Entity System] Entity hero_camera [point_camera]: unrecognized parent "loadout_camera_model"
+02/07 00:24:32 Excessive frame time of 152.03ms clamped.  Acting as if the frame only took 100.00ms
+02/07 00:24:32 [InputSystem] Processing SDL events took 83.9ms
+02/07 00:24:32 [GCClient] Send msg 8729 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch), 207 bytes
+02/07 00:24:32 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 67.538854ms
+02/07 00:24:33 [GCClient] Recv msg 8730 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse), 19 bytes
+02/07 00:24:34 [ResourceSystem] Failed loading resource "materials/models/heroes/phantom_assassin/phantom_assassin_dark_carnival_base.vmat_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:50 [Client] Created physics for dota
+02/07 00:24:50 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+02/07 00:24:50 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:24:50 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:24:50 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:24:50 [SceneSystem] Too many non-culled draws (alloc 128, need 442), resizing!
+02/07 00:24:51 Height map file (maps/prefabs/promotional_radiant_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:24:51 Height map file (maps/prefabs/promotional_dire_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 625 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 617 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 618 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 619 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 620 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 621 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 622 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 623 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 624 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 656 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:51 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.100002 on 657 npc_dota_tower [gametime 58.666668 animtime 58.766670]
+02/07 00:24:53 [ResourceSystem] Failed loading resource "particles/models/items/juggernaut/dc_weaponupdate/dc_weaponupdate.vsnap_c" (ERROR_FILEOPEN: File not found)
+02/07 00:24:53 can't solve quadratic for light 0.000000 0.000000
+02/07 00:24:54 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:24:54 CSwapChainBase::QueuePresentAndWait() looped for 21 iterations without a present event.
+02/07 00:24:55 [Client] PregameHud - SetPreGameVisible 0
+02/07 00:24:55 [Client] portrait_world_unit(hero_4[17742): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17748): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17747): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17746): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17745): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17744): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17743): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] portrait_world_unit(hero_4[17742): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17748): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:24:55 [Client] dota_item_wearable([17747): MarkInterpolationLatchFlagsDirty:  C_BaseEntity::IsLatchedPermissible() == false
+02/07 00:25:07 [SceneSystem] Too many non-culled draws (alloc 512, need 517), resizing!
+02/07 00:25:12 ChangeGameUIState: DOTA_GAME_UI_DOTA_INGAME -> DOTA_GAME_UI_STATE_DASHBOARD
+02/07 00:25:12 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:25:12 [GCClient] Send msg 8673 (k_EMsgClientToGCRequestGuildData), 19 bytes
+02/07 00:25:12 [GCClient] Recv msg 8674 (k_EMsgClientToGCRequestGuildDataResponse), 19 bytes
+02/07 00:25:13 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:25:13 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:25:13 [Client] CL:  disconnect clicked disconnect button
+02/07 00:25:13 [Client] Disconnected from server: NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:25:13 [Client] Disconnecting from server: NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:25:13 [NetSteamConn] Closing Steam Net Connection on socket 'client' to =[A:1:3968263173:48690], handle #757514085 (1002 NETWORK_DISCONNECT_DISCONNECT_BY_USER)
+02/07 00:25:13 [NetSteamConn] CloseSteamNetConnection handle #757514085 (userdata 0)
+02/07 00:25:13 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #757514085 (userdata 0)
+02/07 00:25:13 [Networking] Summary of connection [#757514085 SDR server steamid:90281118473315333 vport 0 'server']:
+02/07 00:25:13 [Networking]     End-to-end connection: connected
+02/07 00:25:13 [Networking]         Remote host is in data center 'eat'
+02/07 00:25:13 [Networking]         Current rates:
+02/07 00:25:13 [Networking]             Sent:  29.9 pkts/sec   4.7 K/sec
+02/07 00:25:13 [Networking]             Recv:  30.1 pkts/sec  11.5 K/sec
+02/07 00:25:13 [Networking]             Ping:174ms    Max latency variance: 5.5ms
+02/07 00:25:13 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:25:13 [Networking]             Est avail bandwidth: 78.1KB/s
+02/07 00:25:13 [Networking]             Bytes buffered: 0
+02/07 00:25:13 [Networking]         Lifetime stats:
+02/07 00:25:13 [Networking]             Totals
+02/07 00:25:13 [Networking]                 Sent:      2,315 pkts         304,426 bytes
+02/07 00:25:13 [Networking]                 Recv:      2,285 pkts         942,637 bytes
+02/07 00:25:13 [Networking]                 Recv w seq:      2,284 pkts
+02/07 00:25:13 [Networking]                 Dropped   :          5 pkts   0.22%
+02/07 00:25:13 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:25:13 [Networking]             Ping histogram: (1636 total samples)
+02/07 00:25:13 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:25:13 [Networking]                         0        0        0        0        0        0     1605       14       17
+02/07 00:25:13 [Networking]                      0.0%     0.0%     0.0%     0.0%     0.0%     0.0%    98.1%     0.9%     1.0%
+02/07 00:25:13 [Networking]             Ping distribution:
+02/07 00:25:13 [Networking]                 5th   50th   75th   95th   98th
+02/07 00:25:13 [Networking]               174ms  175ms  175ms  176ms  193ms
+02/07 00:25:13 [Networking]             Connection quality histogram: (14 measurement intervals)
+02/07 00:25:13 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:25:13 [Networking]                      13      0      1      0      0      0      0      0      0
+02/07 00:25:13 [Networking]                   92.9%   0.0%   7.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:25:13 [Networking]             Connection quality distribution:
+02/07 00:25:13 [Networking]               50th  25th
+02/07 00:25:13 [Networking]               100%  100%
+02/07 00:25:13 [Networking]             Latency variance histogram: (2262 total measurements)
+02/07 00:25:13 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:25:13 [Networking]                     2088      27      27      26      43      51
+02/07 00:25:13 [Networking]                    92.3%    1.2%    1.2%    1.1%    1.9%    2.3%
+02/07 00:25:13 [Networking]         Rate stats received from remote host 19.0s ago:
+02/07 00:25:13 [Networking]             Sent:  30.0 pkts/sec   3.4 K/sec
+02/07 00:25:13 [Networking]             Recv:  29.6 pkts/sec   4.7 K/sec
+02/07 00:25:13 [Networking]             Ping:224ms    Max latency variance: 1.7ms
+02/07 00:25:13 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:25:13 [Networking]             Bytes buffered: 0
+02/07 00:25:13 [Networking]         No lifetime stats received from remote host
+02/07 00:25:13 [Networking]     Primary router: ams#171 (155.133.248.41:27047)  Ping = 40+136=176 (front+back=total)
+02/07 00:25:13 [Networking]         Current rates:
+02/07 00:25:13 [Networking]             Sent:  30.2 pkts/sec   5.1 K/sec
+02/07 00:25:13 [Networking]             Recv:  30.0 pkts/sec  11.6 K/sec
+02/07 00:25:13 [Networking]             Ping:40ms    Max latency variance: 1.1ms
+02/07 00:25:13 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:25:13 [Networking]             Bytes buffered: 0
+02/07 00:25:13 [Networking]         Lifetime stats:
+02/07 00:25:13 [Networking]             Totals
+02/07 00:25:13 [Networking]                 Sent:      2,315 pkts         330,149 bytes
+02/07 00:25:13 [Networking]                 Recv:      2,289 pkts         942,717 bytes
+02/07 00:25:13 [Networking]                 Recv w seq:      2,288 pkts
+02/07 00:25:13 [Networking]                 Dropped   :          5 pkts   0.22%
+02/07 00:25:13 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:25:13 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:25:13 [Networking]             Ping histogram: (16 total samples)
+02/07 00:25:13 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:25:13 [Networking]                         0       15        0        0        1        0        0        0        0
+02/07 00:25:13 [Networking]                      0.0%    93.8%     0.0%     0.0%     6.2%     0.0%     0.0%     0.0%     0.0%
+02/07 00:25:13 [Networking]             Ping distribution:
+02/07 00:25:13 [Networking]                50th   75th
+02/07 00:25:13 [Networking]                42ms   42ms
+02/07 00:25:13 [Networking]             Connection quality histogram: (14 measurement intervals)
+02/07 00:25:13 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:25:13 [Networking]                      13      0      1      0      0      0      0      0      0
+02/07 00:25:13 [Networking]                   92.9%   0.0%   7.1%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:25:13 [Networking]             Connection quality distribution:
+02/07 00:25:13 [Networking]               50th  25th
+02/07 00:25:13 [Networking]               100%  100%
+02/07 00:25:13 [Networking]             Latency variance histogram: (2263 total measurements)
+02/07 00:25:13 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:25:13 [Networking]                     2093      23      25      27      43      52
+02/07 00:25:13 [Networking]                    92.5%    1.0%    1.1%    1.2%    1.9%    2.3%
+02/07 00:25:13 [Networking]         Rate stats received from remote host 19.2s ago:
+02/07 00:25:13 [Networking]             Sent:  49.6 pkts/sec  46.6 K/sec
+02/07 00:25:13 [Networking]             Recv:  25.9 pkts/sec   3.8 K/sec
+02/07 00:25:13 [Networking]             Ping:41ms    Max latency variance: 71.5ms
+02/07 00:25:13 [Networking]             Quality: 99.0%  (Dropped:1.00%  WeirdSeq:0.00%)
+02/07 00:25:13 [Networking]             Bytes buffered: 0
+02/07 00:25:13 [Networking]         No lifetime stats received from remote host
+02/07 00:25:13 [Networking]     Backup router: fra#466 (162.254.197.42:27020)  Ping = 36+147=183 (front+back=total)
+02/07 00:25:13 [Networking]
+02/07 00:25:13 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0 'server'] closed by app, linger requested but not needed (1002) NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:25:13 [NetSteamConn] Removing Steam Net Connection for =[A:1:3968263173:48690], handle #757514085
+02/07 00:25:13 [Networking] Closing 'client' poll group
+02/07 00:25:13 [HostStateManager] CHostStateMgr::QueueNewRequest( Idle (levelload), 3 )
+02/07 00:25:13 [HostStateManager] HostStateRequest::Start(HSR_IDLE):  loop(levelload) id(3) addons() desc(Idle (levelload))
+02/07 00:25:13 [EngineServiceManager] SwitchToLoop levelload requested:  id [3] addons []
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for models/items/tiny/lionheart_kings_moving_castle_t3/lionheart_kings_moving_castle_t3/tiny_lionheart_t3_lod0_vmorf.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (models/items/tiny/lionheart_kings_moving_castle_t3/lionheart_kings_moving_castle_t3/tiny_lionheart_t3_lod0_vmorf.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for models/heroes/beastmaster/beastmaster/beastmaster_model_vmorf.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (models/heroes/beastmaster/beastmaster/beastmaster_model_vmorf.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for models/items/sniper/mh_sniper_odogaron/sniper_odogaron_refit/sniper_model_vmorf.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (models/items/sniper/mh_sniper_odogaron/sniper_odogaron_refit/sniper_model_vmorf.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/ringmaster/knifewheel/ringmaster_dagger_normal_psd_89d5ff03.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/ringmaster/knifewheel/ringmaster_dagger_normal_psd_89d5ff03.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/dev/gray_50_color_tga_edb828f6.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/dev/gray_50_color_tga_edb828f6.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/courier/mh_palico_courier/palico_courier_balloon_color_psd_dc44bd6c.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/courier/mh_palico_courier/palico_courier_balloon_color_psd_dc44bd6c.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_rainbow_specmask_psd_64084519.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_rainbow_specmask_psd_64084519.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_diffusemask_psd_64ab28b4.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_diffusemask_psd_64ab28b4.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_rainbow_color_psd_6a5adbdc.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/antimage_female/mh_antimage_kirin/am_persona_body_kirin_rainbow_color_psd_6a5adbdc.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/antimage_female/am_persona_lower_specmask_psd_e865f5e0.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/antimage_female/am_persona_lower_specmask_psd_e865f5e0.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/antimage_female/am_persona_lower_metalnessmask_psd_d68210d0.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/antimage_female/am_persona_lower_metalnessmask_psd_d68210d0.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/antimage_female/am_persona_lower_color_psd_3c29854a.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/antimage_female/am_persona_lower_color_psd_3c29854a.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/mh_windrunner_zinogre/mh_windrunner_zinogre_rainbow_cube_psd_1e9009d8.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/mh_windrunner_zinogre/mh_windrunner_zinogre_rainbow_cube_psd_1e9009d8.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/beastmaster/beastmaster_color_psd_6e4da3ec.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/beastmaster/beastmaster_color_psd_6e4da3ec.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/beastmaster/beastmaster_normal_psd_1f0b45b5.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/beastmaster/beastmaster_normal_psd_1f0b45b5.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/sniper/sniper_body_detailmask_tga_cc5d2505.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/sniper/sniper_body_detailmask_tga_cc5d2505.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/sniper/sniper_body_color_psd_903b5fb6.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/sniper/sniper_body_color_psd_903b5fb6.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/sniper/mh_sniper_odogaron/mh_sniper_odogaron_head_specmask_psd_dd78b246.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/sniper/mh_sniper_odogaron/mh_sniper_odogaron_head_specmask_psd_dd78b246.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_normal_psd_16944beb.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_normal_psd_16944beb.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_specmask_psd_12fa063a.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_specmask_psd_12fa063a.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_detailmask_psd_dc2488df.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_detailmask_psd_dc2488df.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_color_psd_bfbbde2.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_zinogre_color_psd_bfbbde2.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_eyeshadow_trans_psd_1243dd08.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_eyeshadow_trans_psd_1243dd08.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/particle/electrical/electrical_cracks.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/particle/electrical/electrical_cracks.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_normal_psd_81d20ccb.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_normal_psd_81d20ccb.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_specmask_no_scroll_psd_b1f81864.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_specmask_no_scroll_psd_b1f81864.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_metalnessmask_psd_9c0664dd.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/items/windrunner/windrunner_arcana/windranger_arcana_base_metalnessmask_psd_9c0664dd.vtex)
+02/07 00:25:13 [RenderSystem] Discarding abandoned streaming texture load for materials/models/heroes/antimage_female/anti_mage_female_cube_psd_9e9ebdbb.vtex
+02/07 00:25:13 [RenderSystem] Deleting texture with outstanding streaming request (materials/models/heroes/antimage_female/anti_mage_female_cube_psd_9e9ebdbb.vtex)
+02/07 00:25:13 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:25:13 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 869.763
+02/07 00:25:13 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 869.763
+02/07 00:25:13 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:25:13 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:25:13 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:25:13 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:25:13 ILocalize::AddFile() failed to load file "resource/localization/broadcastfacts_english.txt".
+02/07 00:25:13 ILocalize::AddFile() failed to load file "resource/localization/broadcastfacts_russian.txt".
+02/07 00:25:13 [Client] CL:  CGameRulesGameSystem::GameShutdown uninstalled game rules
+02/07 00:25:13 [Client] CL:  CGameRules::CGameRules destructed
+02/07 00:25:14 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 870.259
+02/07 00:25:14 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/07 00:25:14 [Client] LoadingDisplay changed from NONE to LOADING (map="")
+02/07 00:25:14 [HostStateManager] Host activate: Idle (levelload)
+02/07 00:25:14 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 318 bytes
+02/07 00:25:14 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 870.267
+02/07 00:25:14 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 870.267
+02/07 00:25:14 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 870.267
+02/07 00:25:14 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+02/07 00:25:14 [EngineServiceManager] SwitchToLoop game requested:  id [3] addons []
+02/07 00:25:14 [GCClient] Send msg 2569 (k_EMsgClientToGCEquipItems), 33 bytes
+02/07 00:25:14 **** Panel MainObjectivesTitle has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 **** Panel SideObjectivesTitle has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 [ResourceSystem] Failed loading resource "panorama/images/spellicons/dota_base_ability_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:25:14 [Server] CNetworkGameServerBase::SetServerState (ss_dead -> ss_waitingforgamesessionmanifest)
+02/07 00:25:14 [Server] SV:  maxplayers set to 1
+02/07 00:25:14 Initializing script VM...
+02/07 00:25:14 ...done
+02/07 00:25:14 CPlayerVoiceListener::GameInit()
+02/07 00:25:14 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 69 bytes
+02/07 00:25:14 [GCClient] Recv msg 2570 (k_EMsgClientToGCEquipItemsResponse), 26 bytes
+02/07 00:25:14 **** Panel TimeRangeSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 **** Panel TimeScrubSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 **** Panel SliderAndMarkers has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 **** Panel TimeScrubSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:25:14 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:25:15 [Server] SV:  Spawn Server: <empty>
+02/07 00:25:15 [Server] CNetworkGameServerBase::SetServerState (ss_waitingforgamesessionmanifest -> ss_loading)
+02/07 00:25:15 [Server] CNetworkGameServerBase::SetServerState (ss_loading -> ss_active)
+02/07 00:25:15 [Client] CL:  CWaitForGameServerStartupPrerequisite done waiting for server
+02/07 00:25:15 [Client] CL:  CCreateGameClientJob creating client connection to 'loopback'
+02/07 00:25:15 [SteamNetSockets] [#1315012531 pipe] connected
+02/07 00:25:15 [SteamNetSockets] [#3595828508 pipe] connected
+02/07 00:25:15 [Networking] Created poll group for socket 'client'
+02/07 00:25:15 [Networking] Created poll group for socket 'server'
+02/07 00:25:15 [Networking] Connected loopback client=4e617fb3@loopback:1 <-> server=d653fd1c@loopback:0
+02/07 00:25:15 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/07 00:25:15 [NetSteamConn] Associating NetChan 󠁳 @ loopback:0 (loopback:0) with Steam Net Connection handle #3595828508 (userdata 0)
+02/07 00:25:15 [NetSteamConn] Associating NetChan server @ loopback:1 (loopback:1) with Steam Net Connection handle #1315012531 (userdata 1)
+02/07 00:25:15 [Client] CL:  Connected to 'loopback:1'
+02/07 00:25:15 [Server] Client 0 '󠁳' setting rate to 80000
+02/07 00:25:15 [Client] Game: "Dota 2"
+02/07 00:25:15 [Client] Map: "<empty>"
+02/07 00:25:15 [Client] Players: 1 (0 bots) / 1 humans
+02/07 00:25:15 [Client] Build: 10644 (revision 10430278)
+02/07 00:25:15 [Client] Server Number: 2
+02/07 00:25:15 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/07 00:25:15 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000646 seconds
+02/07 00:25:15 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/07 00:25:15 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/07 00:25:15 [Client] Client missing networkable entity class CPhysMagnet
+02/07 00:25:15 [Client] Client missing networkable entity class CSpotlightEnd
+02/07 00:25:15 [Client] CNetworkGameClientBase::LinkClasses took 121.600 msec
+02/07 00:25:18 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0 'server'] Discarding inactive session fra#466 (162.254.197.42:27020).  ConnectionShutdown
+02/07 00:25:18 [SteamNetSockets] [#757514085 SDR server steamid:90281118473315333 vport 0 'server'] Discarding inactive session ams#171 (155.133.248.41:27047).  ConnectionShutdown
+02/07 00:25:18 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:25:20 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/07 00:25:20 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_STATE_DASHBOARD
+02/07 00:25:20 [Client] LoadingDisplay changed from LOADING to NONE (map="<empty>")
+02/07 00:25:20 [Server] SV:  IGameSystem::LoopActivateAllSystems {
+02/07 00:25:20 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/07 00:25:20 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:25:20 [Server] SV:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:25:20 [Server] SV:  Game started
+02/07 00:25:20 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/07 00:25:20 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000695 seconds
+02/07 00:25:20 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000464 seconds
+02/07 00:25:20 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:25:20 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/07 00:25:20 [Server] SV:  Sending full update to client 󠁳 (reason:  initial update)
+02/07 00:25:20 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/07 00:25:20 [Prediction] Resetting prediction state because we received a full update
+02/07 00:25:20 [Client] Receiving 0.0K non-incremental update from server
+02/07 00:25:20 [Networking] server @ loopback:1:  NetChan Setting Timeout to 30.00 seconds
+02/07 00:25:20 [Client] CL:  Signon traffic "server":  incoming 20.938 KB [202 netframes], outgoing 3.066 KB [201 netframes]
+02/07 00:25:20 [GCClient] Send msg 8034 (k_EMsgClientToGCGetProfileCardStats), 17 bytes
+02/07 00:25:20 [Networking] 󠁳 @ loopback:0:  NetChan Setting Timeout to 20.00 seconds
+02/07 00:25:21 [GCClient] Recv msg 8035 (k_EMsgClientToGCGetProfileCardStatsResponse), 80 bytes
+02/07 00:25:22 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:25:22 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:25:22 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 42 bytes
+02/07 00:25:23 can't solve quadratic for light 0.000000 0.000000
+02/07 00:25:23 can't solve quadratic for light 0.000000 0.000000
+02/07 00:25:24 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 42 bytes
+02/07 00:25:26 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 42 bytes
+02/07 00:32:40 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 46 bytes
+02/07 00:32:41 [GCClient] Send msg 8673 (k_EMsgClientToGCRequestGuildData), 19 bytes
+02/07 00:32:41 [GCClient] Recv msg 8674 (k_EMsgClientToGCRequestGuildDataResponse), 19 bytes
+02/07 00:32:43 [GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 173 bytes
+02/07 00:32:44 [GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 173 bytes
+02/07 00:32:44 [GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 311 bytes
+02/07 00:32:44 [SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:29701377987391165>) [in cache]
+02/07 00:32:44 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:32:44 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:32:44 [GCClient] Recv msg 7055 (k_EMsgGCPracticeLobbyResponse), 19 bytes
+02/07 00:32:44 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+02/07 00:32:44 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 74 bytes
+02/07 00:32:44 [GCClient] Send msg 7041 (k_EMsgGCPracticeLobbyLaunch), 11 bytes
+02/07 00:32:45 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 2995 bytes
+02/07 00:32:45 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:32:45 [GCClient] Recv msg 3001 (k_EMsgGCPingRequest), 8 bytes
+02/07 00:32:45 [GCClient] Send msg 3002 (k_EMsgGCPingResponse), 8 bytes
+02/07 00:32:45 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3011 bytes
+02/07 00:32:45 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:32:45 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/07 00:32:45 [GCClient] Recv msg 7581 (k_EMsgGCToClientSteamDatagramTicket), 273 bytes
+02/07 00:32:45 [SteamNetSockets] Received Steam datagram ticket for server steamid:90281119805150239 vport 0. match_id=8680553473 mm=0 flg=
+02/07 00:32:45 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3033 bytes
+02/07 00:32:45 WriteSteamRemoteStorageFileAsync( "scripts/dota_local_disk_lobby_data.txt" ) -> at 1321.737
+02/07 00:32:45 Telling Steam not to update the app for the next 900 seconds
+02/07 00:32:45 LOBBY STATE RUN: lobby 29701377987391165: Player AccountID 369102305 connecting to MatchID 8680553473 at ServerID [A:1:1005130783:48691] =[A:1:1005130783:48691]
+02/07 00:32:45 [Networking] Steam datagram ticket found to connect to '=[A:1:1005130783:48691]'
+02/07 00:32:45 [HostStateManager] CHostStateMgr::QueueNewRequest( Remote Connect (=[A:1:1005130783:48691]), 4 )
+02/07 00:32:45 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:32:45 [HostStateManager] HostStateRequest::Start(HSR_GAME):  loop(remoteconnect) id(4) addons() desc(Remote Connect (=[A:1:1005130783:48691]))
+02/07 00:32:45 [EngineServiceManager] SwitchToLoop remoteconnect requested:  id [4] addons []
+02/07 00:32:45 WriteSteamRemoteStorageFileAsync( "cfg/chat.cfg" ) -> at 1321.743
+02/07 00:32:45 [GCClient] Send msg 7272 (k_EMsgGCLeaveChatChannel), 13 bytes
+02/07 00:32:45 CAsyncWriteInProgress::OnComplete( "scripts/dota_local_disk_lobby_data.txt" ) -> Success at 1321.754
+02/07 00:32:45 CAsyncWriteInProgress::OnComplete( "cfg/chat.cfg" ) -> Success at 1321.754
+02/07 00:32:45 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:32:45 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 1321.787
+02/07 00:32:45 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 1321.787
+02/07 00:32:45 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:32:45 [Client] Disconnecting from server: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:32:45 [NetSteamConn] Closing Steam Net Connection on socket 'client' to loopback:1, handle #1315012531 (2055 NETWORK_DISCONNECT_LOOPDEACTIVATE)
+02/07 00:32:45 [NetSteamConn] CloseSteamNetConnection handle #1315012531 (userdata 1)
+02/07 00:32:45 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #1315012531 (userdata 1)
+02/07 00:32:45 [SteamNetSockets] [#1315012531 pipe 'server'] closed by app, linger requested but not needed (2055) NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:32:45 [SteamNetSockets] [#3595828508 pipe '󠁳'] closed by peer (2055): NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:32:45 [NetSteamConn] Removing Steam Net Connection for loopback:1, handle #1315012531
+02/07 00:32:45 [Networking] Closing 'client' poll group
+02/07 00:32:45 [Server] SV:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:32:45 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:32:45 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:32:45 [Server] SV:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:32:45 [Server] SV:  Server shutting down: NETWORK_DISCONNECT_LOOPDEACTIVATE (55)
+02/07 00:32:45 [Server] CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+02/07 00:32:45 [Server] Disconnect client '󠁳' from server: NETWORK_DISCONNECT_SHUTDOWN (Server shutdown)
+02/07 00:32:45 [SignonState] Client 0 '󠁳' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+02/07 00:32:45 [NetSteamConn] Closing Steam Net Connection on socket 'server' to loopback:0, handle #3595828508 (1001 NETWORK_DISCONNECT_SHUTDOWN)
+02/07 00:32:45 [NetSteamConn] CloseSteamNetConnection handle #3595828508 (userdata 0)
+02/07 00:32:45 [NetSteamConn] Disassociating NetChan 󠁳 @  (unknown) from Steam Net Connection handle #3595828508 (userdata 0)
+02/07 00:32:45 [NetSteamConn] Removing Steam Net Connection for loopback:0, handle #3595828508
+02/07 00:32:45 CPlayerVoiceListener::PostSpawnGroupUnload()
+02/07 00:32:45 [Networking] Closing 'server' poll group
+02/07 00:32:45 [stringtables] SV: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:32:45 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:32:45 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 1321.907
+02/07 00:32:45 CPlayerVoiceListener::GameShutdown()
+02/07 00:32:45 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( remoteconnect : success )
+02/07 00:32:45 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/07 00:32:45 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 1321.930
+02/07 00:32:45 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 1321.930
+02/07 00:32:45 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 1321.930
+02/07 00:32:45 [NetSteamConn] Steam Net connection #3595828508 pipe '󠁳' closed by peer, reason 2055: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:32:45 [NetSteamConn] CloseSteamNetConnection handle #3595828508 (userdata -1)
+02/07 00:32:45 [NetSteamConn] Opened Steam Net Connection on socket 'client' to =[A:1:1005130783:48691], connection #1187063736 SDR server steamid:90281119805150239 vport 0
+02/07 00:32:45 [Networking] Created poll group for socket 'client'
+02/07 00:32:45 [GCClient] Recv msg 7014 (k_EMsgGCOtherLeftChannel), 26 bytes
+02/07 00:32:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0] Requesting session from ams#171 (155.133.248.41:27047).  Ping = 176 = 40+136 (front+back).  Rank=1 Score=208
+02/07 00:32:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0] Selecting ams#171 (155.133.248.41:27047) as primary.  (Ping = 176 = 40+136+0 (front+interior+remote).  Rank=1 Score=180)
+02/07 00:32:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0] Requesting session from fra#466 (162.254.197.42:27020).  Ping = 323 = 175+148 (front+back).  Rank=2 Score=384
+02/07 00:32:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0] Selecting fra#466 (162.254.197.42:27020) as backup #1 (Ping = 323 = 175+148+0 (front+interior+remote).  Rank=2 Score=340)
+02/07 00:32:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0] connected
+02/07 00:32:46 [Client] Sending connect to =[A:1:1005130783:48691]
+02/07 00:32:46 [Client] Received S2C_CHALLENGE [0 auth 3] from =[A:1:1005130783:48691]
+02/07 00:32:46 [Client] Sending C2S_CONNECT [48 protocol 0 auth 3] to =[A:1:1005130783:48691]
+02/07 00:32:46 [Client] Received S2C_CONNECTION from =[A:1:1005130783:48691] [addons:'']
+02/07 00:32:46 [NetSteamConn] Associating NetChan server @ =[A:1:1005130783:48691] (=[A:1:1005130783:48691]) with Steam Net Connection handle #1187063736 (userdata 0)
+02/07 00:32:46 [Client] CL:  Connected to '=[A:1:1005130783:48691]'
+02/07 00:32:46 [SignonState] CL:  Suppress INetchannel::Transmit() in loopmode( remoteconnect )
+02/07 00:32:46 [Client] CL:  CLoopModeRemoteConnect::OnClientFrameSimulate switching to "levelload" loopmode with addons:
+02/07 00:32:46 [EngineServiceManager] SwitchToLoop levelload requested:  id [4] addons []
+02/07 00:32:46 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/07 00:32:46 [Client] LoadingDisplay changed from NONE to PRE_LOADING (map="")
+02/07 00:32:46 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( levelload : success )
+02/07 00:32:46 [SignonState] CL:  Permit INetchannel::Transmit()
+02/07 00:32:46 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+02/07 00:32:46 [EngineServiceManager] SwitchToLoop game requested:  id [4] addons []
+02/07 00:32:46 [Client] CL:  CNetworkGameClient already exists for connection to '=[A:1:1005130783:48691]'
+02/07 00:32:46 [Client] CL:  connection to '=[A:1:1005130783:48691]' already started
+02/07 00:32:46 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:32:47 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Requesting session from sea#185 (205.196.6.135:27199).  Ping = 229 = 225+4 (front+back).  Rank=2 Score=286
+02/07 00:32:47 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Selecting sea#185 (205.196.6.135:27199) as backup #1 (Ping = 229 = 225+4+0 (front+interior+remote).  Rank=2 Score=251)
+02/07 00:32:49 [Client] Game: "Dota 2"
+02/07 00:32:49 [Client] Map: "start"
+02/07 00:32:49 [Client] Players: 1 (1 bots) / 64 humans
+02/07 00:32:49 [Client] Build: 10695 (revision 10432425)
+02/07 00:32:49 [Client] Server Number: 3
+02/07 00:32:49 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/07 00:32:49 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_INIT'
+02/07 00:32:49 [Client] LoadingDisplay changed from PRE_LOADING to NONE (map="start")
+02/07 00:32:49 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_INIT
+02/07 00:32:49 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/07 00:32:49 [Client] CL:  CGameRulesGameSystem::GameInit installed game rules
+02/07 00:32:49 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000431 seconds
+02/07 00:32:49 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_LAST
+02/07 00:32:49 [Client] PregameHud - SetPreGameVisible 1
+02/07 00:32:49 [GCClient] Send msg 7274 (k_EMsgGCGetHeroStandings), 8 bytes
+02/07 00:32:49 [Client] PregameHud - bIsPreloading is now 1
+02/07 00:32:49 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_INIT
+02/07 00:32:49 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/07 00:32:49 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/07 00:32:49 [Client] Client missing networkable entity class CPhysMagnet
+02/07 00:32:49 [Client] Client missing networkable entity class CSpotlightEnd
+02/07 00:32:49 [Client] CNetworkGameClientBase::LinkClasses took 97.764 msec
+02/07 00:32:49 [GCClient] Recv msg 7275 (k_EMsgGCGetHeroStandingsResponse), 12169 bytes
+02/07 00:32:49 WriteSteamRemoteStorageFileAsync( "cfg/stats.dat" ) -> at 1325.959
+02/07 00:32:49 CAsyncWriteInProgress::OnComplete( "cfg/stats.dat" ) -> Success at 1325.960
+02/07 00:32:51 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:32:52 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:32:55 [ResourceSystem] Failed loading resource "materials/particle/particle_ring_blurry_generic_projected.vmat_c" (ERROR_FILEOPEN: File not found)
+02/07 00:32:57 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 50 bytes
+02/07 00:32:58 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:32:59 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:32:59 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_killing_spree_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:32:59 [AnimResource]  models/particle/explosion/fx_explosion_capped_sphere.vmdl : Animations loaded but no animation data found
+02/07 00:32:59 [AnimResource]  models/props_structures/xp_shrine/xp_shrine_stones.vmdl : Animations loaded but no animation data found
+02/07 00:33:00 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/07 00:33:00 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_DOTA_INGAME
+02/07 00:33:00 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/07 00:33:00 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/07 00:33:00 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:33:00 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000750 seconds
+02/07 00:33:00 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000368 seconds
+02/07 00:33:00 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:33:00 [HostStateManager] Host activate: Remote Connect (=[A:1:1005130783:48691])
+02/07 00:33:00 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/07 00:33:00 Job EconItemSearch has spent >3.000ms without yielding: 10.196ms
+02/07 00:33:00 Job EconItemSearch has spent >3.000ms without yielding: 10.064ms
+02/07 00:33:00 Job EconItemSearch has spent >3.000ms without yielding: 10.040ms
+02/07 00:33:00 Job CAsyncDataCache::RequestCurrentData has spent >3.000ms without yielding: 9.995ms
+02/07 00:33:00 Job EconItemSearch has spent >3.000ms without yielding: 10.058ms
+02/07 00:33:00 Job EconItemSearch has spent >3.000ms without yielding: 10.003ms
+02/07 00:33:01 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/07 00:33:01 [Prediction] Resetting prediction state because we received a full update
+02/07 00:33:01 [Client] Receiving 0.9K non-incremental update from server
+02/07 00:33:01 Height map file (maps/start.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:33:01 Creating ingame event for event 0, but no event definition?
+02/07 00:33:01 [Networking] server @ =[A:1:1005130783:48691]:  NetChan Setting Timeout to 30.00 seconds
+02/07 00:33:01 [Client] CL:  Signon traffic "server":  incoming 163.645 KB [29 netframes], outgoing 5.579 KB [451 netframes]
+02/07 00:33:01 [Prediction] Added prediction for player slot 1 (󠁳)
+02/07 00:33:01 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD'
+02/07 00:33:01 C_DOTAGamerules::State_Enter_WAIT_FOR_PLAYERS_TO_LOAD: Loaded/expected players: 0/1
+02/07 00:33:01 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:33:01 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:33:01 Job EconItemSearch has spent >3.000ms without yielding: 58.491ms
+02/07 00:33:01 Job EconItemSearch has spent >3.000ms without yielding: 11.160ms
+02/07 00:33:01 Job EconItemSearch has spent >3.000ms without yielding: 10.013ms
+02/07 00:33:01 Job EconItemSearch has spent >3.000ms without yielding: 10.024ms
+02/07 00:33:01 Job EconItemSearch has spent >3.000ms without yielding: 10.014ms
+02/07 00:33:02 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 44.130471ms
+02/07 00:33:02 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 43.318299ms
+02/07 00:33:02 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:33:02 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_HERO_SELECTION'
+02/07 00:33:02 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:33:02 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:33:02 [Client] PregameHud - bIsPreloading is now 0
+02/07 00:33:02 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 602 bytes
+02/07 00:33:06 [Client] Unable to load grid nav for world "prefabs/promotional_radiant_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:33:06 [Client] Unable to load grid nav for world "prefabs/promotional_dire_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:33:06 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:33:07 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 40.474329ms
+02/07 00:33:11 [GCClient] Timed out waiting 10 secs for reply msg 7055 (k_EMsgGCPracticeLobbyResponse) from GC.  Assuming connection has been disrupted.
+02/07 00:33:11 [GCClient] Send msg 4006 (k_EMsgGCClientHello), 135 bytes
+02/07 00:33:11 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 49 bytes
+02/07 00:33:11 [GCClient] Recv msg 29 (k_ESOMsg_CacheSubscribedUpToDate), 44 bytes
+02/07 00:33:12 [GCClient] Recv msg 4004 (k_EMsgGCClientWelcome), 1129 bytes
+02/07 00:33:12 [GCClient] Received client welcome from GC.
+02/07 00:33:12 [SOCache] CMsgClientWelcome subscribed: 1 up-to-date, 1 out-of-date
+02/07 00:33:12 [SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:29701377987391165>) [in cache]
+02/07 00:33:12 GC reported matchgroups version 107
+02/07 00:33:12 [WeekendTourney] Received weekend tourney schedule.
+02/07 00:33:12 [GCClient] Send msg 2536 (k_EMsgGCRequestStoreSalesData), 12 bytes
+02/07 00:33:12 [GCClient] Send msg 2617 (k_EMsgClientToGCCancelUnfinalizedTransactions), 8 bytes
+02/07 00:33:12 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 23 bytes
+02/07 00:33:12 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 32 bytes
+02/07 00:33:12 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 24 bytes
+02/07 00:33:12 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 22 bytes
+02/07 00:33:12 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+02/07 00:33:12 [GCClient] Recv msg 2618 (k_EMsgClientToGCCancelUnfinalizedTransactionsResponse), 19 bytes
+02/07 00:33:12 [GCClient] Recv msg 2538 (k_EMsgGCRequestStoreSalesDataUpToDateResponse), 16 bytes
+02/07 00:33:12 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 47 bytes
+02/07 00:33:12 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 56 bytes
+02/07 00:33:12 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 47 bytes
+02/07 00:33:12 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 46 bytes
+02/07 00:33:12 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 74 bytes
+02/07 00:33:12 [GCClient] Recv msg 8772 (k_EMsgGCToClientOverwatchCasesAvailable), 13 bytes
+02/07 00:33:14 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+02/07 00:33:14 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:33:14 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:33:15 Excessive frame time of 113.90ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 1.05s ago)
+02/07 00:33:15 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 55.416474ms
+02/07 00:33:15 [GCClient] Send msg 8729 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch), 207 bytes
+02/07 00:33:15 [GCClient] Recv msg 8730 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse), 528 bytes
+02/07 00:33:16 [Entity System] Entity hero_camera [point_camera]: unrecognized parent "loadout_camera_model"
+02/07 00:33:19 WriteSteamRemoteStorageFileAsync( "cfg/hero_facet_config.cfg" ) -> at 1355.934
+02/07 00:33:19 CAsyncWriteInProgress::OnComplete( "cfg/hero_facet_config.cfg" ) -> Success at 1355.955
+02/07 00:33:20 [Client] Created physics for dota
+02/07 00:33:20 [Client] Slamming client tick to server tick.  abs( server tick 1053 - client tick 1068 = -15 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:33:20 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+02/07 00:33:20 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:33:20 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:33:20 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:20 Excessive frame time of 232.22ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 3.84s ago)
+02/07 00:33:21 Height map file (maps/prefabs/promotional_radiant_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:33:21 Height map file (maps/prefabs/promotional_dire_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:33:21 [Client] Slamming client tick to server tick.  abs( server tick 1062 - client tick 1073 = -11 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 625 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 617 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 618 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 619 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 620 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 621 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 622 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 623 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 624 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 656 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.333336 on 657 npc_dota_tower [gametime 35.433334 animtime 35.766670]
+02/07 00:33:21 [Client] Slamming client tick to server tick.  abs( server tick 1102 - client tick 1075 = 27 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:33:22 can't solve quadratic for light 20.000000 20.000000
+02/07 00:33:22 can't solve quadratic for light 20.000000 20.000000
+02/07 00:33:22 can't solve quadratic for light 20.000000 20.000000
+02/07 00:33:23 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:24 CSwapChainBase::QueuePresentAndWait() looped for 21 iterations without a present event.
+02/07 00:33:25 [Client] Slamming client tick to server tick.  abs( server tick 1204 - client tick 1199 = 5 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:33:25 [Client] PregameHud - SetPreGameVisible 0
+02/07 00:33:26 [Client] Slamming client tick to server tick.  abs( server tick 1256 - client tick 1251 = 5 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:33:29 Excessive frame time of 128.65ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 4.30s ago)
+02/07 00:33:46 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Selecting fra#466 (162.254.197.42:27020) as backup #1 (Ping = 184 = 36+148+0 (front+interior+remote).  Rank=2 Score=187)
+02/07 00:33:47 **** Panel ComponentContainer has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:47 **** Panel ComponentContainer has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:48 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:58 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:33:58 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:00 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:00 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:04 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:06 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 54 bytes
+02/07 00:34:22 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:34:36 Excessive frame time of 195.98ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 1.02s ago)
+02/07 00:34:36 [ResourceSystem] WARNING: RESOURCE_TYPE_TEXTURE resource 'panorama/images/heroes/icons/npc_dota_hero_drow_ranger_alt1_png.vtex' (3014EAB1186E1365) requested but is not in the system. (Missing from from a manifest?)
+02/07 00:34:38 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:34:42 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:34:50 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+02/07 00:34:50 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+02/07 00:34:50 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/07 00:34:50 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:34:51 ChangeGameUIState: DOTA_GAME_UI_DOTA_INGAME -> DOTA_GAME_UI_STATE_DASHBOARD
+02/07 00:34:51 [GCClient] Send msg 7197 (k_EMsgGCMatchmakingStatsRequest), 8 bytes
+02/07 00:34:51 [GCClient] Send msg 8800 (k_EMsgClientToGCGetAvailablePrivateCoachingSessionsSummary), 17 bytes
+02/07 00:34:51 Excessive frame time of 111.39ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 1.28s ago)
+02/07 00:34:51 [GCClient] Send msg 8673 (k_EMsgClientToGCRequestGuildData), 19 bytes
+02/07 00:34:51 [GCClient] Recv msg 8801 (k_EMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse), 23 bytes
+02/07 00:34:52 [GCClient] Recv msg 8674 (k_EMsgClientToGCRequestGuildDataResponse), 19 bytes
+02/07 00:34:52 [GCClient] Recv msg 7198 (k_EMsgGCMatchmakingStatsResponse), 318 bytes
+02/07 00:34:52 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:34:52 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:34:52 can't solve quadratic for light 0.000000 0.000000
+02/07 00:34:52 can't solve quadratic for light 0.000000 0.000000
+02/07 00:34:53 [Client] CL:  disconnect clicked disconnect button
+02/07 00:34:53 [Client] Disconnected from server: NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:34:53 [Client] Disconnecting from server: NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:34:53 [NetSteamConn] Closing Steam Net Connection on socket 'client' to =[A:1:1005130783:48691], handle #1187063736 (1002 NETWORK_DISCONNECT_DISCONNECT_BY_USER)
+02/07 00:34:53 [NetSteamConn] CloseSteamNetConnection handle #1187063736 (userdata 0)
+02/07 00:34:53 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #1187063736 (userdata 0)
+02/07 00:34:53 [Networking] Summary of connection [#1187063736 SDR server steamid:90281119805150239 vport 0 'server']:
+02/07 00:34:53 [Networking]     End-to-end connection: connected
+02/07 00:34:53 [Networking]         Remote host is in data center 'eat'
+02/07 00:34:53 [Networking]         Current rates:
+02/07 00:34:53 [Networking]             Sent:  32.9 pkts/sec   4.7 K/sec
+02/07 00:34:53 [Networking]             Recv:  31.3 pkts/sec  16.2 K/sec
+02/07 00:34:53 [Networking]             Ping:178ms    Max latency variance: 5.4ms
+02/07 00:34:53 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:34:53 [Networking]             Est avail bandwidth: 78.1KB/s
+02/07 00:34:53 [Networking]             Bytes buffered: 0
+02/07 00:34:53 [Networking]         Lifetime stats:
+02/07 00:34:53 [Networking]             Totals
+02/07 00:34:53 [Networking]                 Sent:      4,427 pkts         579,270 bytes
+02/07 00:34:53 [Networking]                 Recv:      3,752 pkts       1,840,083 bytes
+02/07 00:34:53 [Networking]                 Recv w seq:      3,751 pkts
+02/07 00:34:53 [Networking]                 Dropped   :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]             Ping histogram: (3198 total samples)
+02/07 00:34:53 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:34:53 [Networking]                         0        0        0        0        0        0     3193        5        0
+02/07 00:34:53 [Networking]                      0.0%     0.0%     0.0%     0.0%     0.0%     0.0%    99.8%     0.2%     0.0%
+02/07 00:34:53 [Networking]             Ping distribution:
+02/07 00:34:53 [Networking]                 5th   50th   75th   95th   98th
+02/07 00:34:53 [Networking]               178ms  179ms  179ms  180ms  181ms
+02/07 00:34:53 [Networking]             Connection quality histogram: (24 measurement intervals)
+02/07 00:34:53 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:34:53 [Networking]                      24      0      0      0      0      0      0      0      0
+02/07 00:34:53 [Networking]                  100.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:34:53 [Networking]             Connection quality distribution:
+02/07 00:34:53 [Networking]               50th  25th   5th
+02/07 00:34:53 [Networking]               100%  100%  100%
+02/07 00:34:53 [Networking]             Latency variance histogram: (3729 total measurements)
+02/07 00:34:53 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:34:53 [Networking]                     3505     129      42      26      24       3
+02/07 00:34:53 [Networking]                    94.0%    3.5%    1.1%    0.7%    0.6%    0.1%
+02/07 00:34:53 [Networking]         Rate stats received from remote host 5.7s ago:
+02/07 00:34:53 [Networking]             Sent:  29.9 pkts/sec  11.9 K/sec
+02/07 00:34:53 [Networking]             Recv:  30.1 pkts/sec   4.9 K/sec
+02/07 00:34:53 [Networking]             Ping:179ms    Max latency variance: 1.7ms
+02/07 00:34:53 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:34:53 [Networking]             Bytes buffered: 0
+02/07 00:34:53 [Networking]         Lifetime stats received from remote host 6.8s ago:
+02/07 00:34:53 [Networking]             Totals
+02/07 00:34:53 [Networking]                 Sent:      3,542 pkts       1,683,456 bytes
+02/07 00:34:53 [Networking]                 Recv:      4,204 pkts         592,896 bytes
+02/07 00:34:53 [Networking]                 Recv w seq:      4,203 pkts
+02/07 00:34:53 [Networking]                 Dropped   :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]             Ping histogram: (3119 total samples)
+02/07 00:34:53 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:34:53 [Networking]                         0        0        0        0        0        0     3113        6        0
+02/07 00:34:53 [Networking]                      0.0%     0.0%     0.0%     0.0%     0.0%     0.0%    99.8%     0.2%     0.0%
+02/07 00:34:53 [Networking]             Ping distribution:
+02/07 00:34:53 [Networking]                 5th   50th   75th   95th   98th
+02/07 00:34:53 [Networking]               178ms  179ms  179ms  180ms  181ms
+02/07 00:34:53 [Networking]             Connection quality histogram: (23 measurement intervals)
+02/07 00:34:53 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:34:53 [Networking]                      23      0      0      0      0      0      0      0      0
+02/07 00:34:53 [Networking]                  100.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:34:53 [Networking]             Connection quality distribution:
+02/07 00:34:53 [Networking]               50th  25th   5th
+02/07 00:34:53 [Networking]               100%  100%  100%
+02/07 00:34:53 [Networking]             Latency variance histogram: (4197 total measurements)
+02/07 00:34:53 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:34:53 [Networking]                     3844     300      32      10       6       5
+02/07 00:34:53 [Networking]                    91.6%    7.1%    0.8%    0.2%    0.1%    0.1%
+02/07 00:34:53 [Networking]     Primary router: ams#171 (155.133.248.41:27047)  Ping = 41+136=177 (front+back=total)
+02/07 00:34:53 [Networking]         Current rates:
+02/07 00:34:53 [Networking]             Sent:  30.0 pkts/sec   4.8 K/sec
+02/07 00:34:53 [Networking]             Recv:  30.0 pkts/sec  12.5 K/sec
+02/07 00:34:53 [Networking]             Ping:41ms    Max latency variance: 4.7ms
+02/07 00:34:53 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:34:53 [Networking]             Bytes buffered: 0
+02/07 00:34:53 [Networking]         Lifetime stats:
+02/07 00:34:53 [Networking]             Totals
+02/07 00:34:53 [Networking]                 Sent:      4,427 pkts         628,636 bytes
+02/07 00:34:53 [Networking]                 Recv:      3,756 pkts       1,840,163 bytes
+02/07 00:34:53 [Networking]                 Recv w seq:      3,755 pkts
+02/07 00:34:53 [Networking]                 Dropped   :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]             Ping histogram: (27 total samples)
+02/07 00:34:53 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:34:53 [Networking]                         0       27        0        0        0        0        0        0        0
+02/07 00:34:53 [Networking]                      0.0%   100.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%
+02/07 00:34:53 [Networking]             Ping distribution:
+02/07 00:34:53 [Networking]                 5th   50th   75th   95th
+02/07 00:34:53 [Networking]                40ms   41ms   41ms   41ms
+02/07 00:34:53 [Networking]             Connection quality histogram: (22 measurement intervals)
+02/07 00:34:53 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:34:53 [Networking]                      22      0      0      0      0      0      0      0      0
+02/07 00:34:53 [Networking]                  100.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:34:53 [Networking]             Connection quality distribution:
+02/07 00:34:53 [Networking]               50th  25th   5th
+02/07 00:34:53 [Networking]               100%  100%  100%
+02/07 00:34:53 [Networking]             Latency variance histogram: (3730 total measurements)
+02/07 00:34:53 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:34:53 [Networking]                     3521     116      39      26      24       4
+02/07 00:34:53 [Networking]                    94.4%    3.1%    1.0%    0.7%    0.6%    0.1%
+02/07 00:34:53 [Networking]         Rate stats received from remote host 6.3s ago:
+02/07 00:34:53 [Networking]             Sent:  29.9 pkts/sec  12.3 K/sec
+02/07 00:34:53 [Networking]             Recv:  30.1 pkts/sec   4.9 K/sec
+02/07 00:34:53 [Networking]             Ping:40ms    Max latency variance: 1.7ms
+02/07 00:34:53 [Networking]             Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+02/07 00:34:53 [Networking]             Bytes buffered: 0
+02/07 00:34:53 [Networking]         Lifetime stats received from remote host 6.7s ago:
+02/07 00:34:53 [Networking]             Totals
+02/07 00:34:53 [Networking]                 Sent:      3,548 pkts       1,730,560 bytes
+02/07 00:34:53 [Networking]                 Recv:      4,212 pkts         594,944 bytes
+02/07 00:34:53 [Networking]                 Recv w seq:      4,210 pkts
+02/07 00:34:53 [Networking]                 Dropped   :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OutOfOrder:          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 OOOFixed  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 Duplicate :          0 pkts   0.00%
+02/07 00:34:53 [Networking]                 SeqLurch  :          0 pkts   0.00%
+02/07 00:34:53 [Networking]             Ping histogram: (24 total samples)
+02/07 00:34:53 [Networking]                      0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+02/07 00:34:53 [Networking]                         0       24        0        0        0        0        0        0        0
+02/07 00:34:53 [Networking]                      0.0%   100.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%
+02/07 00:34:53 [Networking]             Ping distribution:
+02/07 00:34:53 [Networking]                 5th   50th   75th   95th
+02/07 00:34:53 [Networking]                40ms   41ms   41ms   41ms
+02/07 00:34:53 [Networking]             Connection quality histogram: (23 measurement intervals)
+02/07 00:34:53 [Networking]                 perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+02/07 00:34:53 [Networking]                      23      0      0      0      0      0      0      0      0
+02/07 00:34:53 [Networking]                  100.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+02/07 00:34:53 [Networking]             Connection quality distribution:
+02/07 00:34:53 [Networking]               50th  25th   5th
+02/07 00:34:53 [Networking]               100%  100%  100%
+02/07 00:34:53 [Networking]             Latency variance histogram: (4204 total measurements)
+02/07 00:34:53 [Networking]                       <1     1-2     2-5    5-10   10-20     >20
+02/07 00:34:53 [Networking]                     3851     299      33      10       6       5
+02/07 00:34:53 [Networking]                    91.6%    7.1%    0.8%    0.2%    0.1%    0.1%
+02/07 00:34:53 [Networking]     Backup router: fra#466 (162.254.197.42:27020)  Ping = 37+148=185 (front+back=total)
+02/07 00:34:53 [Networking]
+02/07 00:34:53 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] closed by app, linger requested but not needed (1002) NETWORK_DISCONNECT_DISCONNECT_BY_USER
+02/07 00:34:53 [NetSteamConn] Removing Steam Net Connection for =[A:1:1005130783:48691], handle #1187063736
+02/07 00:34:53 [Networking] Closing 'client' poll group
+02/07 00:34:53 [HostStateManager] CHostStateMgr::QueueNewRequest( Idle (levelload), 5 )
+02/07 00:34:53 [HostStateManager] HostStateRequest::Start(HSR_IDLE):  loop(levelload) id(5) addons() desc(Idle (levelload))
+02/07 00:34:53 [EngineServiceManager] SwitchToLoop levelload requested:  id [5] addons []
+02/07 00:34:53 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:34:53 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 1449.465
+02/07 00:34:53 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 1449.466
+02/07 00:34:53 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:34:53 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:34:53 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:34:53 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:34:53 ILocalize::AddFile() failed to load file "resource/localization/broadcastfacts_english.txt".
+02/07 00:34:53 ILocalize::AddFile() failed to load file "resource/localization/broadcastfacts_russian.txt".
+02/07 00:34:53 [Client] CL:  CGameRulesGameSystem::GameShutdown uninstalled game rules
+02/07 00:34:53 [Client] CL:  CGameRules::CGameRules destructed
+02/07 00:34:53 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 1450.009
+02/07 00:34:53 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/07 00:34:53 [Client] LoadingDisplay changed from NONE to LOADING (map="")
+02/07 00:34:53 [HostStateManager] Host activate: Idle (levelload)
+02/07 00:34:53 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 1450.017
+02/07 00:34:53 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 1450.017
+02/07 00:34:53 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 1450.017
+02/07 00:34:53 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+02/07 00:34:53 [EngineServiceManager] SwitchToLoop game requested:  id [5] addons []
+02/07 00:34:53 [GCClient] Send msg 2569 (k_EMsgClientToGCEquipItems), 33 bytes
+02/07 00:34:54 **** Panel MainObjectivesTitle has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 **** Panel SideObjectivesTitle has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 [ResourceSystem] Failed loading resource "panorama/images/spellicons/dota_base_ability_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:34:54 [Server] CNetworkGameServerBase::SetServerState (ss_dead -> ss_waitingforgamesessionmanifest)
+02/07 00:34:54 [Server] SV:  maxplayers set to 1
+02/07 00:34:54 Initializing script VM...
+02/07 00:34:54 ...done
+02/07 00:34:54 CPlayerVoiceListener::GameInit()
+02/07 00:34:54 **** Panel TimeRangeSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 **** Panel TimeScrubSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 **** Panel SliderAndMarkers has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 **** Panel TimeScrubSlider has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:34:54 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:34:54 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 98 bytes
+02/07 00:34:54 [GCClient] Recv msg 2570 (k_EMsgClientToGCEquipItemsResponse), 26 bytes
+02/07 00:34:54 [Server] SV:  Spawn Server: <empty>
+02/07 00:34:54 [Server] CNetworkGameServerBase::SetServerState (ss_waitingforgamesessionmanifest -> ss_loading)
+02/07 00:34:54 [Server] CNetworkGameServerBase::SetServerState (ss_loading -> ss_active)
+02/07 00:34:54 [Client] CL:  CWaitForGameServerStartupPrerequisite done waiting for server
+02/07 00:34:54 [Client] CL:  CCreateGameClientJob creating client connection to 'loopback'
+02/07 00:34:54 [SteamNetSockets] [#1806002774 pipe] connected
+02/07 00:34:54 [SteamNetSockets] [#1380917164 pipe] connected
+02/07 00:34:54 [Networking] Created poll group for socket 'client'
+02/07 00:34:54 [Networking] Created poll group for socket 'server'
+02/07 00:34:54 [Networking] Connected loopback client=6ba56a56@loopback:1 <-> server=524f1fac@loopback:0
+02/07 00:34:54 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/07 00:34:54 [NetSteamConn] Associating NetChan 󠁳 @ loopback:0 (loopback:0) with Steam Net Connection handle #1380917164 (userdata 0)
+02/07 00:34:54 [NetSteamConn] Associating NetChan server @ loopback:1 (loopback:1) with Steam Net Connection handle #1806002774 (userdata 1)
+02/07 00:34:54 [Client] CL:  Connected to 'loopback:1'
+02/07 00:34:54 [Server] Client 0 '󠁳' setting rate to 80000
+02/07 00:34:54 [Client] Game: "Dota 2"
+02/07 00:34:54 [Client] Map: "<empty>"
+02/07 00:34:54 [Client] Players: 1 (0 bots) / 1 humans
+02/07 00:34:54 [Client] Build: 10644 (revision 10430278)
+02/07 00:34:54 [Client] Server Number: 3
+02/07 00:34:54 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/07 00:34:54 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000670 seconds
+02/07 00:34:54 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/07 00:34:54 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/07 00:34:54 [Client] Client missing networkable entity class CPhysMagnet
+02/07 00:34:54 [Client] Client missing networkable entity class CSpotlightEnd
+02/07 00:34:54 [Client] CNetworkGameClientBase::LinkClasses took 118.147 msec
+02/07 00:34:55 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:34:56 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/07 00:34:56 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_STATE_DASHBOARD
+02/07 00:34:56 [Client] LoadingDisplay changed from LOADING to NONE (map="<empty>")
+02/07 00:34:56 [Server] SV:  IGameSystem::LoopActivateAllSystems {
+02/07 00:34:56 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/07 00:34:56 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:34:56 [Server] SV:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:34:56 [Server] SV:  Game started
+02/07 00:34:56 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/07 00:34:56 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000916 seconds
+02/07 00:34:56 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000339 seconds
+02/07 00:34:56 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:34:56 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/07 00:34:56 [Server] SV:  Sending full update to client 󠁳 (reason:  initial update)
+02/07 00:34:56 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/07 00:34:56 [Prediction] Resetting prediction state because we received a full update
+02/07 00:34:56 [Client] Receiving 0.0K non-incremental update from server
+02/07 00:34:56 [Networking] server @ loopback:1:  NetChan Setting Timeout to 30.00 seconds
+02/07 00:34:56 [Client] CL:  Signon traffic "server":  incoming 19.836 KB [177 netframes], outgoing 2.791 KB [176 netframes]
+02/07 00:34:56 [GCClient] Send msg 8034 (k_EMsgClientToGCGetProfileCardStats), 17 bytes
+02/07 00:34:56 [Networking] 󠁳 @ loopback:0:  NetChan Setting Timeout to 20.00 seconds
+02/07 00:34:56 [GCClient] Recv msg 8035 (k_EMsgClientToGCGetProfileCardStatsResponse), 80 bytes
+02/07 00:34:56 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:34:56 Encountered unrecognized client entity in portrait map - info_null
+02/07 00:34:57 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:34:57 can't solve quadratic for light 0.000000 0.000000
+02/07 00:34:57 can't solve quadratic for light 0.000000 0.000000
+02/07 00:34:57 Excessive frame time of 133.31ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'level_load', 1.01s ago)
+02/07 00:34:57 Excessive frame time of 214.80ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'level_load', 1.24s ago)
+02/07 00:34:58 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Discarding inactive session sea#185 (205.196.6.135:27199).  ConnectionShutdown
+02/07 00:34:58 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Discarding inactive session fra#466 (162.254.197.42:27020).  ConnectionShutdown
+02/07 00:34:58 [SteamNetSockets] [#1187063736 SDR server steamid:90281119805150239 vport 0 'server'] Discarding inactive session ams#171 (155.133.248.41:27047).  ConnectionShutdown
+02/07 00:35:00 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:35:11 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:35:16 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 48 bytes
+02/07 00:35:25 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:35:26 Finished requesting news data
+02/07 00:35:26 [ResourceSystem] WARNING: RESOURCE_TYPE_MATERIAL resource 'materials/stickers/monster_hunter/materials/sticker_npc_dota_hero_visage_basic.vmat' (434AF3FB1D2AC6AE) requested but is not in the system. (Missing from from a manifest?)
+02/07 00:35:26 [ResourceSystem] WARNING: RESOURCE_TYPE_MATERIAL resource 'materials/stickers/monster_hunter/monster_hunter_sticker_card_back.vmat' (5C3CDF4B2CAC8744) requested but is not in the system. (Missing from from a manifest?)
+02/07 00:35:27 [HostStateManager] CHostStateMgr::QueueNewRequest( Quitting, 6 )
+02/07 00:35:27 [ResourceSystem] WARNING: RESOURCE_TYPE_MATERIAL resource 'materials/stickers/monster_hunter/materials/sticker_npc_dota_hero_brewmaster_basic.vmat' (8152C14AA9301DFB) requested but is not in the system. (Missing from from a manifest?)
+02/07 00:35:27 [HostStateManager] HostStateRequest::Start(HSR_QUIT)
+02/07 00:35:27 [ResourceSystem] WARNING: RESOURCE_TYPE_MATERIAL resource 'materials/stickers/monster_hunter/materials/sticker_npc_dota_hero_shadow_demon_glitter.vmat' (AF269D8F1DCFBEFB) requested but is not in the system. (Missing from from a manifest?)
+02/07 00:35:27 [Client] Disconnecting from server: NETWORK_DISCONNECT_EXITING
+02/07 00:35:27 [NetSteamConn] Closing Steam Net Connection on socket 'client' to loopback:1, handle #1806002774 (1059 NETWORK_DISCONNECT_EXITING)
+02/07 00:35:27 [NetSteamConn] CloseSteamNetConnection handle #1806002774 (userdata 1)
+02/07 00:35:27 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #1806002774 (userdata 1)
+02/07 00:35:27 [SteamNetSockets] [#1806002774 pipe 'server'] closed by app, linger requested but not needed (1059) NETWORK_DISCONNECT_EXITING
+02/07 00:35:27 [SteamNetSockets] [#1380917164 pipe '󠁳'] closed by peer (1059): NETWORK_DISCONNECT_EXITING
+02/07 00:35:27 [NetSteamConn] Removing Steam Net Connection for loopback:1, handle #1806002774
+02/07 00:35:27 [Networking] Closing 'client' poll group
+02/07 00:35:27 [Server] SV:  Server shutting down: NETWORK_DISCONNECT_EXITING (59)
+02/07 00:35:27 [Server] CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+02/07 00:35:27 [Server] Disconnect client '󠁳' from server: NETWORK_DISCONNECT_SHUTDOWN (Server shutdown)
+02/07 00:35:27 [SignonState] Client 0 '󠁳' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+02/07 00:35:27 [NetSteamConn] Closing Steam Net Connection on socket 'server' to loopback:0, handle #1380917164 (1001 NETWORK_DISCONNECT_SHUTDOWN)
+02/07 00:35:27 [NetSteamConn] CloseSteamNetConnection handle #1380917164 (userdata 0)
+02/07 00:35:27 [NetSteamConn] Disassociating NetChan 󠁳 @  (unknown) from Steam Net Connection handle #1380917164 (userdata 0)
+02/07 00:35:27 [NetSteamConn] Removing Steam Net Connection for loopback:0, handle #1380917164
+02/07 00:35:27 CPlayerVoiceListener::PostSpawnGroupUnload()
+02/07 00:35:27 [Networking] Closing 'server' poll group
+02/07 00:35:27 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:35:27 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 1483.223
+02/07 00:35:27 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 1483.223
+02/07 00:35:27 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:35:27 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:35:27 [Server] SV:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:35:27 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:35:27 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:35:27 [Server] SV:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:35:27 [stringtables] SV: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:35:27 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 1483.361
+02/07 00:35:27 CPlayerVoiceListener::GameShutdown()
+02/07 00:35:27 [HostStateManager] Host activate: Quitting
+02/07 00:35:27 Dispatching EventAppShutdown_t {
+02/07 00:35:27 [SplitScreen] Saved 'user_keys.vcfg' to SteamRemoteStorage, 73 bytes OK
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot0.vcfg': type 1
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot0.vcfg_lastclouded': type 3
+02/07 00:35:27 [SplitScreen] Saved 'user_convars.vcfg' to SteamRemoteStorage, 12462 bytes OK
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_convars_0_slot0.vcfg': type 1
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_convars_0_slot0.vcfg_lastclouded': type 3
+02/07 00:35:27 [SplitScreen] Saved 'user_keys.vcfg' to SteamRemoteStorage, 73 bytes OK
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot0.vcfg': type 1
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot0.vcfg_lastclouded': type 3
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot1.vcfg': type 1
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot2.vcfg': type 1
+02/07 00:35:27 [SplitScreen] Saved user config file 'cfg/user_keys_0_slot3.vcfg': type 1
+02/07 00:35:27 } Dispatched EventAppShutdown_t
+02/07 00:35:27 MainLoop returning
+02/07 00:35:27 Source2Shutdown
+02/07 00:35:27 ShutdownSource2Logging
+02/07 00:47:02 [GCClient] Send msg 7038 (k_EMsgGCPracticeLobbyCreate), 173 bytes
+02/07 00:47:03 [GCClient] Recv msg 24 (k_ESOMsg_CacheSubscribed), 311 bytes
+02/07 00:47:03 [SOCache] CGCSOCacheSubscribedJob(owner=<Lobby:29701377997619725>) [in cache]
+02/07 00:47:03 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:47:03 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:47:03 [GCClient] Recv msg 7055 (k_EMsgGCPracticeLobbyResponse), 19 bytes
+02/07 00:47:03 [GCClient] Send msg 7009 (k_EMsgGCJoinChatChannel), 35 bytes
+02/07 00:47:03 [GCClient] Recv msg 7010 (k_EMsgGCJoinChatChannelResponse), 74 bytes
+02/07 00:47:03 [GCClient] Send msg 8673 (k_EMsgClientToGCRequestGuildData), 19 bytes
+02/07 00:47:04 [GCClient] Recv msg 8674 (k_EMsgClientToGCRequestGuildDataResponse), 19 bytes
+02/07 00:47:04 [GCClient] Send msg 7041 (k_EMsgGCPracticeLobbyLaunch), 11 bytes
+02/07 00:47:05 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 2995 bytes
+02/07 00:47:05 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:47:05 [GCClient] Recv msg 3001 (k_EMsgGCPingRequest), 8 bytes
+02/07 00:47:05 [GCClient] Send msg 3002 (k_EMsgGCPingResponse), 8 bytes
+02/07 00:47:05 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3011 bytes
+02/07 00:47:05 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:47:05 [GCClient] Recv msg 7581 (k_EMsgGCToClientSteamDatagramTicket), 273 bytes
+02/07 00:47:05 [SteamNetSockets] Received Steam datagram ticket for server steamid:90281120104299520 vport 0. match_id=8680567072 mm=0 flg=
+02/07 00:47:05 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 3033 bytes
+02/07 00:47:05 WriteSteamRemoteStorageFileAsync( "scripts/dota_local_disk_lobby_data.txt" ) -> at 362.803
+02/07 00:47:05 Telling Steam not to update the app for the next 900 seconds
+02/07 00:47:05 LOBBY STATE RUN: lobby 29701377997619725: Player AccountID 369102305 connecting to MatchID 8680567072 at ServerID [A:1:1304280064:48691] =[A:1:1304280064:48691]
+02/07 00:47:05 [Networking] Steam datagram ticket found to connect to '=[A:1:1304280064:48691]'
+02/07 00:47:05 [HostStateManager] CHostStateMgr::QueueNewRequest( Remote Connect (=[A:1:1304280064:48691]), 4 )
+02/07 00:47:05 [Localization System] CLocalize::FindSafe failed to localize: invalid index
+02/07 00:47:05 [HostStateManager] HostStateRequest::Start(HSR_GAME):  loop(remoteconnect) id(4) addons() desc(Remote Connect (=[A:1:1304280064:48691]))
+02/07 00:47:05 [EngineServiceManager] SwitchToLoop remoteconnect requested:  id [4] addons []
+02/07 00:47:05 WriteSteamRemoteStorageFileAsync( "cfg/chat.cfg" ) -> at 362.805
+02/07 00:47:05 [GCClient] Send msg 7272 (k_EMsgGCLeaveChatChannel), 13 bytes
+02/07 00:47:05 CAsyncWriteInProgress::OnComplete( "cfg/chat.cfg" ) -> Success at 362.816
+02/07 00:47:05 CAsyncWriteInProgress::OnComplete( "scripts/dota_local_disk_lobby_data.txt" ) -> Success at 362.816
+02/07 00:47:05 [Client] CL:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:47:05 WriteSteamRemoteStorageFileAsync( "scripts/control_groups.txt" ) -> at 362.858
+02/07 00:47:05 WriteSteamRemoteStorageFileAsync( "scripts/item_suggest_preference.txt" ) -> at 362.858
+02/07 00:47:05 [Client] CL:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:47:05 [Client] Disconnecting from server: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:47:05 [NetSteamConn] Closing Steam Net Connection on socket 'client' to loopback:1, handle #3564027059 (2055 NETWORK_DISCONNECT_LOOPDEACTIVATE)
+02/07 00:47:05 [NetSteamConn] CloseSteamNetConnection handle #3564027059 (userdata 1)
+02/07 00:47:05 [NetSteamConn] Disassociating NetChan server @  (unknown) from Steam Net Connection handle #3564027059 (userdata 1)
+02/07 00:47:05 [SteamNetSockets] [#3564027059 pipe 'server'] closed by app, linger requested but not needed (2055) NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:47:05 [SteamNetSockets] [#1097832975 pipe '󠁳'] closed by peer (2055): NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:47:05 [NetSteamConn] Removing Steam Net Connection for loopback:1, handle #3564027059
+02/07 00:47:05 [Networking] Closing 'client' poll group
+02/07 00:47:05 [Server] SV:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:47:05 [Host] HO:  IGameSystem::LoopDeactivateAllSystems {
+02/07 00:47:05 [Host] HO:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:47:05 [Server] SV:  } IGameSystem::LoopDeactivateAllSystems done
+02/07 00:47:05 [Server] SV:  Server shutting down: NETWORK_DISCONNECT_LOOPDEACTIVATE (55)
+02/07 00:47:05 [Server] CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+02/07 00:47:05 [Server] Disconnect client '󠁳' from server: NETWORK_DISCONNECT_SHUTDOWN (Server shutdown)
+02/07 00:47:05 [SignonState] Client 0 '󠁳' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+02/07 00:47:05 [NetSteamConn] Closing Steam Net Connection on socket 'server' to loopback:0, handle #1097832975 (1001 NETWORK_DISCONNECT_SHUTDOWN)
+02/07 00:47:05 [NetSteamConn] CloseSteamNetConnection handle #1097832975 (userdata 0)
+02/07 00:47:05 [NetSteamConn] Disassociating NetChan 󠁳 @  (unknown) from Steam Net Connection handle #1097832975 (userdata 0)
+02/07 00:47:05 [NetSteamConn] Removing Steam Net Connection for loopback:0, handle #1097832975
+02/07 00:47:05 CPlayerVoiceListener::PostSpawnGroupUnload()
+02/07 00:47:05 [Networking] Closing 'server' poll group
+02/07 00:47:05 [stringtables] SV: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:47:05 [stringtables] CL: CNetworkStringTableContainer::RemoveAllTables:  removing 20 tables
+02/07 00:47:05 WriteSteamRemoteStorageFileAsync( "voice_ban.dt" ) -> at 362.967
+02/07 00:47:05 CPlayerVoiceListener::GameShutdown()
+02/07 00:47:05 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( remoteconnect : success )
+02/07 00:47:05 [Client] Tick packet desired receive margin now 5.0ms.  cl_tickpacket_recvmargin_desired=5  cl_tickpacket_desired_queuelength=0.  engine_frametime_warnings_enable=1, cl_async_usercmd_send=1
+02/07 00:47:05 CAsyncWriteInProgress::OnComplete( "scripts/control_groups.txt" ) -> Success at 362.984
+02/07 00:47:05 CAsyncWriteInProgress::OnComplete( "scripts/item_suggest_preference.txt" ) -> Success at 362.984
+02/07 00:47:05 CAsyncWriteInProgress::OnComplete( "voice_ban.dt" ) -> Success at 362.984
+02/07 00:47:05 [NetSteamConn] Steam Net connection #1097832975 pipe '󠁳' closed by peer, reason 2055: NETWORK_DISCONNECT_LOOPDEACTIVATE
+02/07 00:47:05 [NetSteamConn] CloseSteamNetConnection handle #1097832975 (userdata -1)
+02/07 00:47:05 [NetSteamConn] Opened Steam Net Connection on socket 'client' to =[A:1:1304280064:48691], connection #1619568142 SDR server steamid:90281120104299520 vport 0
+02/07 00:47:05 [Networking] Created poll group for socket 'client'
+02/07 00:47:05 [GCClient] Recv msg 7014 (k_EMsgGCOtherLeftChannel), 26 bytes
+02/07 00:47:05 [SteamNetSockets] [#1619568142 SDR server steamid:90281120104299520 vport 0] Requesting session from ams#115 (155.133.248.40:27037).  Ping = 180 = 44+136 (front+back).  Rank=1 Score=212
+02/07 00:47:06 [SteamNetSockets] [#1619568142 SDR server steamid:90281120104299520 vport 0] Selecting ams#115 (155.133.248.40:27037) as primary.  (Ping = 180 = 44+136+0 (front+interior+remote).  Rank=1 Score=184)
+02/07 00:47:06 [SteamNetSockets] [#1619568142 SDR server steamid:90281120104299520 vport 0] Requesting session from fra#563 (162.254.197.44:27025).  Ping = 183 = 36+147 (front+back).  Rank=2 Score=214
+02/07 00:47:06 [SteamNetSockets] [#1619568142 SDR server steamid:90281120104299520 vport 0] Selecting fra#563 (162.254.197.44:27025) as backup #1 (Ping = 183 = 36+147+0 (front+interior+remote).  Rank=2 Score=186)
+02/07 00:47:06 [SteamNetSockets] [#1619568142 SDR server steamid:90281120104299520 vport 0] connected
+02/07 00:47:06 [Client] Sending connect to =[A:1:1304280064:48691]
+02/07 00:47:06 [Client] Received S2C_CHALLENGE [0 auth 3] from =[A:1:1304280064:48691]
+02/07 00:47:06 [Client] Sending C2S_CONNECT [48 protocol 0 auth 3] to =[A:1:1304280064:48691]
+02/07 00:47:06 [Client] Received S2C_CONNECTION from =[A:1:1304280064:48691] [addons:'']
+02/07 00:47:06 [NetSteamConn] Associating NetChan server @ =[A:1:1304280064:48691] (=[A:1:1304280064:48691]) with Steam Net Connection handle #1619568142 (userdata 0)
+02/07 00:47:06 [Client] CL:  Connected to '=[A:1:1304280064:48691]'
+02/07 00:47:06 [SignonState] CL:  Suppress INetchannel::Transmit() in loopmode( remoteconnect )
+02/07 00:47:06 [Client] CL:  CLoopModeRemoteConnect::OnClientFrameSimulate switching to "levelload" loopmode with addons:
+02/07 00:47:06 [EngineServiceManager] SwitchToLoop levelload requested:  id [4] addons []
+02/07 00:47:06 ChangeGameUIState: DOTA_GAME_UI_STATE_DASHBOARD -> DOTA_GAME_UI_STATE_LOADING_SCREEN
+02/07 00:47:06 [Client] LoadingDisplay changed from NONE to PRE_LOADING (map="")
+02/07 00:47:06 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( levelload : success )
+02/07 00:47:06 [SignonState] CL:  Permit INetchannel::Transmit()
+02/07 00:47:06 [Client] CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+02/07 00:47:06 [EngineServiceManager] SwitchToLoop game requested:  id [4] addons []
+02/07 00:47:06 [ResourceSystem] Failed loading resource "panorama/images/players/0_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:06 [Client] CL:  CNetworkGameClient already exists for connection to '=[A:1:1304280064:48691]'
+02/07 00:47:06 [Client] CL:  connection to '=[A:1:1304280064:48691]' already started
+02/07 00:47:08 [Client] Game: "Dota 2"
+02/07 00:47:08 [Client] Map: "start"
+02/07 00:47:08 [Client] Players: 1 (1 bots) / 64 humans
+02/07 00:47:08 [Client] Build: 10695 (revision 10432425)
+02/07 00:47:08 [Client] Server Number: 3
+02/07 00:47:08 [SignonState] CL:  CNetworkGameClient::ProcessServerInfo
+02/07 00:47:09 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_INIT'
+02/07 00:47:09 [Client] LoadingDisplay changed from PRE_LOADING to NONE (map="start")
+02/07 00:47:09 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_INIT
+02/07 00:47:09 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+02/07 00:47:09 [Client] CL:  CGameRulesGameSystem::GameInit installed game rules
+02/07 00:47:09 ReadSteamRemoteStorageFile( bufOut, "voice_ban.dt" ) -> 0.000440 seconds
+02/07 00:47:09 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_LAST
+02/07 00:47:09 [Client] PregameHud - SetPreGameVisible 1
+02/07 00:47:09 [GCClient] Send msg 7274 (k_EMsgGCGetHeroStandings), 8 bytes
+02/07 00:47:09 [Client] PregameHud - bIsPreloading is now 1
+02/07 00:47:09 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_INIT
+02/07 00:47:09 [SteamNetSockets] Waited 2.3ms for SteamNetworkingSockets lock [SetConfigValue]
+02/07 00:47:09 [Client] CNetworkGameClient::ProcessClassInfo: create on client true
+02/07 00:47:09 [Client] CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc 0, server api exists)
+02/07 00:47:10 [Client] Client missing networkable entity class CPhysMagnet
+02/07 00:47:10 [Client] Client missing networkable entity class CSpotlightEnd
+02/07 00:47:10 [Client] CNetworkGameClientBase::LinkClasses took 96.485 msec
+02/07 00:47:10 [GCClient] Recv msg 7275 (k_EMsgGCGetHeroStandingsResponse), 12169 bytes
+02/07 00:47:10 WriteSteamRemoteStorageFileAsync( "cfg/stats.dat" ) -> at 367.293
+02/07 00:47:10 CAsyncWriteInProgress::OnComplete( "cfg/stats.dat" ) -> Success at 367.294
+02/07 00:47:10 [ResourceSystem] Failed loading resource "materials/models/heroes/statuseffects/electric_detail2_psd_23fa1fb3.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:11 [ResourceSystem] Failed loading resource "materials/particle/particle_ring_blurry_generic_projected.vmat_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:12 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_killing_spree_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:12 [ResourceSystem] Failed loading resource "panorama/images/heroes/icons/npc_dota_hero_announcer_png.vtex_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:12 [AnimResource]  models/particle/explosion/fx_explosion_capped_sphere.vmdl : Animations loaded but no animation data found
+02/07 00:47:12 [AnimResource]  models/props_structures/xp_shrine/xp_shrine_stones.vmdl : Animations loaded but no animation data found
+02/07 00:47:12 [Client] CL:  CGameClientConnectPrerequisite connection succeeded
+02/07 00:47:12 ChangeGameUIState: DOTA_GAME_UI_STATE_LOADING_SCREEN -> DOTA_GAME_UI_DOTA_INGAME
+02/07 00:47:12 [Client] CL:  IGameSystem::LoopActivateAllSystems {
+02/07 00:47:12 [Host] HO:  IGameSystem::LoopActivateAllSystems {
+02/07 00:47:12 [Host] HO:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:47:12 ReadSteamRemoteStorageFile( bufOut, "scripts/control_groups.txt" ) -> 0.000652 seconds
+02/07 00:47:12 ReadSteamRemoteStorageFile( bufOut, "scripts/item_suggest_preference.txt" ) -> 0.000395 seconds
+02/07 00:47:12 [Client] CL:  } IGameSystem::LoopActivateAllSystems done
+02/07 00:47:12 [HostStateManager] Host activate: Remote Connect (=[A:1:1304280064:48691])
+02/07 00:47:12 [SignonState] CL:  CNetworkGameClient::OnSwitchLoopModeFinished( game : success )
+02/07 00:47:12 Job EconItemSearch has spent >3.000ms without yielding: 11.646ms
+02/07 00:47:12 Job EconItemSearch has spent >3.000ms without yielding: 10.029ms
+02/07 00:47:12 Job EconItemSearch has spent >3.000ms without yielding: 10.025ms
+02/07 00:47:12 Job EconItemSearch has spent >3.000ms without yielding: 10.006ms
+02/07 00:47:13 [Client] CNetworkGameClientBase::OnReceivedUncompressedPacket(), received full update
+02/07 00:47:13 [Prediction] Resetting prediction state because we received a full update
+02/07 00:47:13 [Client] Receiving 0.9K non-incremental update from server
+02/07 00:47:13 Height map file (maps/start.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:47:13 Creating ingame event for event 0, but no event definition?
+02/07 00:47:13 [Networking] server @ =[A:1:1304280064:48691]:  NetChan Setting Timeout to 30.00 seconds
+02/07 00:47:13 [Client] CL:  Signon traffic "server":  incoming 164.872 KB [28 netframes], outgoing 8.102 KB [703 netframes]
+02/07 00:47:13 [Prediction] Added prediction for player slot 1 (󠁳)
+02/07 00:47:13 [Client] Slamming client tick to server tick.  abs( server tick 269 - client tick 235 = 34 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 3 = 6 )
+02/07 00:47:13 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD'
+02/07 00:47:13 C_DOTAGamerules::State_Enter_WAIT_FOR_PLAYERS_TO_LOAD: Loaded/expected players: 0/1
+02/07 00:47:13 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:47:13 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD
+02/07 00:47:13 Job EconItemSearch has spent >3.000ms without yielding: 11.846ms
+02/07 00:47:13 Job EconItemSearch has spent >3.000ms without yielding: 10.014ms
+02/07 00:47:13 Job EconItemSearch has spent >3.000ms without yielding: 10.030ms
+02/07 00:47:13 Job EconItemSearch has spent >3.000ms without yielding: 10.047ms
+02/07 00:47:13 Job EconItemSearch has spent >3.000ms without yielding: 10.009ms
+02/07 00:47:14 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 44.291738ms
+02/07 00:47:14 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 44.867451ms
+02/07 00:47:15 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_HERO_SELECTION'
+02/07 00:47:15 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:47:15 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_HERO_SELECTION
+02/07 00:47:15 [GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 602 bytes
+02/07 00:47:15 [Client] PregameHud - bIsPreloading is now 0
+02/07 00:47:16 [Client] Unable to load grid nav for world "prefabs/promotional_dire_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:47:16 [Client] Unable to load grid nav for world "prefabs/promotional_radiant_fountain" (ERROR_FILEOPEN: File not found)
+02/07 00:47:18 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 38.251211ms
+02/07 00:47:18 [Client] Slamming client tick to server tick.  abs( server tick 412 - client tick 407 = 5 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:18 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+02/07 00:47:18 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:47:18 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_STRATEGY_TIME
+02/07 00:47:19 [WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 44.662733ms
+02/07 00:47:19 [GCClient] Send msg 8729 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch), 164 bytes
+02/07 00:47:19 [ResourceSystem] Failed loading resource "materials/models/heroes/phantom_assassin/phantom_assassin_dark_carnival_base.vmat_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:19 [GCClient] Recv msg 8730 (k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse), 448 bytes
+02/07 00:47:20 [InputSystem] Processing SDL events took 61.0ms
+02/07 00:47:20 [Client] Slamming client tick to server tick.  abs( server tick 458 - client tick 452 = 6 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:20 [Entity System] Entity hero_camera [point_camera]: unrecognized parent "loadout_camera_model"
+02/07 00:47:20 Excessive frame time of 190.76ms clamped.  Acting as if the frame only took 100.00ms.  (Last amnesty was 'SDL_EVENT(0x20e)', 1.88s ago)
+02/07 00:47:23 [Client] Created physics for dota
+02/07 00:47:23 [Client] Slamming client tick to server tick.  abs( server tick 540 - client tick 555 = -15 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:23 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+02/07 00:47:23 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:47:23 [Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_PRE_GAME
+02/07 00:47:23 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:47:23 Excessive frame time of 230.71ms clamped.  Acting as if the frame only took 100.00ms
+02/07 00:47:24 Height map file (maps/prefabs/promotional_radiant_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:47:24 Height map file (maps/prefabs/promotional_dire_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+02/07 00:47:24 [Client] Slamming client tick to server tick.  abs( server tick 550 - client tick 562 = -12 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 625 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 617 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 618 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 619 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 620 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 621 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 622 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 623 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 624 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 656 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [Client] CDOTAAnimState::UpdateGestureLayer layer 6 with negative interval -0.366667 on 657 npc_dota_tower [gametime 18.366667 animtime 18.733334]
+02/07 00:47:24 [ResourceSystem] Failed loading resource "particles/ability_modifier_placeholder/mask_of_madness_active.vpcf_c" (ERROR_FILEOPEN: File not found)
+02/07 00:47:24 [Client] Slamming client tick to server tick.  abs( server tick 576 - client tick 559 = 17 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:24 [Client] Slamming client tick to server tick.  abs( server tick 588 - client tick 576 = 12 ) > ( cl_clockdrift_max_ticks 3 + sim ticks 1 = 4 )
+02/07 00:47:26 **** Panel Hint has fill-parent-flow for width, but isn't in a flowing right layout
+02/07 00:47:28 [Client] PregameHud - SetPreGameVisible 0
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_illusory_orb_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_illusory_orb_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_waning_rift_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_waning_rift_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_ethereal_jaunt_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_ethereal_jaunt_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_dream_coil_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_dream_coil_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_ethereal_jaunt_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_ethereal_jaunt_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_phase_shift_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_phase_shift_SummaryDescription_LevelUp
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_waning_rift_SummaryDescription
+02/07 00:47:41 [Localization System] CLocalize::ConstructString failed to localize: #DOTA_Tooltip_Ability_puck_waning_rift_SummaryDescription_LevelUp
+02/07 00:47:50 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 45 bytes
+02/07 00:47:51 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 45 bytes
+02/07 00:48:08 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 61 bytes
+02/07 00:48:08 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 45 bytes
+02/07 00:48:08 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 61 bytes
+02/07 00:48:09 [GCClient] Recv msg 7273 (k_EMsgGCChatMessage), 61 bytes
+02/07 00:48:53 C:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+02/07 00:48:53 [Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+02/07 00:48:53 [Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
