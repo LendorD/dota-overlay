@@ -1,4 +1,4 @@
-package main
+package paths
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
-func findDotaLogPath() (string, error) {
+func FindDotaLogPath() (string, error) {
 	var steamPath string
 	k, err := registry.OpenKey(registry.LOCAL_MACHINE, `SOFTWARE\WOW6432Node\Valve\Steam`, registry.QUERY_VALUE)
 	if err != nil {
